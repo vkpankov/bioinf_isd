@@ -1,0 +1,131 @@
+Command line: [exonerate -q peptides.fasta -t uniprot-proteome_UP000005640.fasta --verbose 1 --percent 95 --cores 8 --ryo %qt\n]
+Hostname: [DESKTOP-A]
+
+C4 Alignment:
+------------
+         Query: Colon-2125 
+        Target: sp|Q9N2K0|ENH1_HUMAN HERV-H_2q24.3 provirus ancestral Env polyprotein OS=Homo sapiens OX=9606 PE=2 SV=1
+         Model: ungapped:protein2protein
+     Raw score: 159
+   Query range: 0 -> 30
+  Target range: 455 -> 485
+
+   1 : NRRGLDLLTAEKGGLCIFINDECCFYLNQS :  30
+       ||||||||||||||||||:|:|||||||||
+ 456 : NRRGLDLLTAEKGGLCIFLNEECCFYLNQS : 485
+
+vulgar: Colon-2125 0 30 . sp|Q9N2K0|ENH1_HUMAN 455 485 . 159 M 30 30
+Protein
+
+C4 Alignment:
+------------
+         Query: Colon-2124 
+        Target: sp|Q9N2K0|ENH1_HUMAN HERV-H_2q24.3 provirus ancestral Env polyprotein OS=Homo sapiens OX=9606 PE=2 SV=1
+         Model: ungapped:protein2protein
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 455 -> 485
+
+   1 : NRRGLDLLTAEKGGLCIFINEECCFYLNQS :  30
+       ||||||||||||||||||:|||||||||||
+ 456 : NRRGLDLLTAEKGGLCIFLNEECCFYLNQS : 485
+
+vulgar: Colon-2124 0 30 . sp|Q9N2K0|ENH1_HUMAN 455 485 . 162 M 30 30
+Protein
+
+C4 Alignment:
+------------
+         Query: Colon-2122 
+        Target: sp|Q9N2K0|ENH1_HUMAN HERV-H_2q24.3 provirus ancestral Env polyprotein OS=Homo sapiens OX=9606 PE=2 SV=1
+         Model: ungapped:protein2protein
+     Raw score: 160
+   Query range: 0 -> 30
+  Target range: 455 -> 485
+
+   1 : NRRGLDLLTAEKGGLCIFFNEECCFYLNQS :  30
+       ||||||||||||||||||.|||||||||||
+ 456 : NRRGLDLLTAEKGGLCIFLNEECCFYLNQS : 485
+
+vulgar: Colon-2122 0 30 . sp|Q9N2K0|ENH1_HUMAN 455 485 . 160 M 30 30
+Protein
+
+C4 Alignment:
+------------
+         Query: Colon-2121 
+        Target: sp|Q9N2K0|ENH1_HUMAN HERV-H_2q24.3 provirus ancestral Env polyprotein OS=Homo sapiens OX=9606 PE=2 SV=1
+         Model: ungapped:protein2protein
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 455 -> 485
+
+   1 : NRRGLDLLTAEKGGLCIFLNDECCFYLNQS :  30
+       ||||||||||||||||||||:|||||||||
+ 456 : NRRGLDLLTAEKGGLCIFLNEECCFYLNQS : 485
+
+vulgar: Colon-2121 0 30 . sp|Q9N2K0|ENH1_HUMAN 455 485 . 161 M 30 30
+Protein
+
+C4 Alignment:
+------------
+         Query: Colon-2120 
+        Target: sp|Q9N2K0|ENH1_HUMAN HERV-H_2q24.3 provirus ancestral Env polyprotein OS=Homo sapiens OX=9606 PE=2 SV=1
+         Model: ungapped:protein2protein
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 455 -> 485
+
+   1 : NRRGLDLLTAEKGGLCIFLNEECCFYLNQS :  30
+       ||||||||||||||||||||||||||||||
+ 456 : NRRGLDLLTAEKGGLCIFLNEECCFYLNQS : 485
+
+vulgar: Colon-2120 0 30 . sp|Q9N2K0|ENH1_HUMAN 455 485 . 164 M 30 30
+Protein
+
+C4 Alignment:
+------------
+         Query: Colon-2144 
+        Target: sp|Q9N2K0|ENH1_HUMAN HERV-H_2q24.3 provirus ancestral Env polyprotein OS=Homo sapiens OX=9606 PE=2 SV=1
+         Model: ungapped:protein2protein
+     Raw score: 159
+   Query range: 0 -> 30
+  Target range: 455 -> 485
+
+   1 : NHRGLDLLTAEKGGLCIFLNEECCFYLNQS :  30
+       |.||||||||||||||||||||||||||||
+ 456 : NRRGLDLLTAEKGGLCIFLNEECCFYLNQS : 485
+
+vulgar: Colon-2144 0 30 . sp|Q9N2K0|ENH1_HUMAN 455 485 . 159 M 30 30
+Protein
+
+C4 Alignment:
+------------
+         Query: Colon-2136 
+        Target: sp|Q9N2K0|ENH1_HUMAN HERV-H_2q24.3 provirus ancestral Env polyprotein OS=Homo sapiens OX=9606 PE=2 SV=1
+         Model: ungapped:protein2protein
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 455 -> 485
+
+   1 : NRRGFDLLTAEKGGLCIFINEECCFYLNQS :  30
+       ||||.|||||||||||||:|||||||||||
+ 456 : NRRGLDLLTAEKGGLCIFLNEECCFYLNQS : 485
+
+vulgar: Colon-2136 0 30 . sp|Q9N2K0|ENH1_HUMAN 455 485 . 158 M 30 30
+Protein
+
+C4 Alignment:
+------------
+         Query: Colon-2132 
+        Target: sp|Q9N2K0|ENH1_HUMAN HERV-H_2q24.3 provirus ancestral Env polyprotein OS=Homo sapiens OX=9606 PE=2 SV=1
+         Model: ungapped:protein2protein
+     Raw score: 160
+   Query range: 0 -> 30
+  Target range: 455 -> 485
+
+   1 : NRRGFDLLTAEKGGLCIFLNEECCFYLNQS :  30
+       ||||.|||||||||||||||||||||||||
+ 456 : NRRGLDLLTAEKGGLCIFLNEECCFYLNQS : 485
+
+vulgar: Colon-2132 0 30 . sp|Q9N2K0|ENH1_HUMAN 455 485 . 160 M 30 30
+Protein
+-- completed exonerate analysis

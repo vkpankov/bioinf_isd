@@ -1,0 +1,4413 @@
+Command line: [exonerate -q peptides.fasta -t Homo_sapiens.GRCh38.ncrna.fa --verbose 1 --percent 95 --cores 8 --ryo %qt\n]
+Hostname: [DESKTOP-A]
+
+C4 Alignment:
+------------
+         Query: Kidney-32 
+        Target: ENST00000593903.1 ncrna chromosome:GRCh38:19:20746923:20755250:-1 gene:ENSG00000268416.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010329.1 description:novel transcript
+         Model: ungapped:protein2dna
+     Raw score: 211
+   Query range: 0 -> 42
+  Target range: 7482 -> 7608
+
+    1 : AsnArgLeuAlaLeuAspTyrLeuLeuAlaAlaGluGlyGlyValCysGlyLysPheAsnLe :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgLeuAlaLeuAspTyrLeuLeuAlaAlaGluGlyGlyValCysGlyLysPheAsnLe
+ 7483 : AATAGACTGGCCTTGGACTACTTGCTAGCAGCTGAAGGAGGAGTTTGTGGAAAATTTAACTT : 7543
+
+   22 : uThrAsnCysCysLeuGlnIleAspAspGlnGlyGlnValValGluAsnIleValArgAspM :   42
+        |||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||||
+        uThrAsnTyrCysLeuGlnIleAspAspGlnGlyGlnValValGluAsnIleValArgAspM
+ 7544 : AACCAATTACTGCCTACAAATAGATGATCAAGGACAGGTGGTTGAAAACATAGTCAGGGACA : 7606
+
+   43 : et :   42
+        ||
+        et
+ 7607 : TG : 7608
+
+vulgar: Kidney-32 0 42 . ENST00000593903.1 7482 7608 + 211 M 42 126
+Protein
+
+C4 Alignment:
+------------
+         Query: Kidney-32 
+        Target: ENST00000623538.1 ncrna chromosome:GRCh38:CHR_HSCHR19_1_CTG2:20746923:20755250:-1 gene:ENSG00000280030.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010329.4 description:novel transcript
+         Model: ungapped:protein2dna
+     Raw score: 211
+   Query range: 0 -> 42
+  Target range: 7482 -> 7608
+
+    1 : AsnArgLeuAlaLeuAspTyrLeuLeuAlaAlaGluGlyGlyValCysGlyLysPheAsnLe :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgLeuAlaLeuAspTyrLeuLeuAlaAlaGluGlyGlyValCysGlyLysPheAsnLe
+ 7483 : AATAGACTGGCCTTGGACTACTTGCTAGCAGCTGAAGGAGGAGTTTGTGGAAAATTTAACTT : 7543
+
+   22 : uThrAsnCysCysLeuGlnIleAspAspGlnGlyGlnValValGluAsnIleValArgAspM :   42
+        |||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||||
+        uThrAsnTyrCysLeuGlnIleAspAspGlnGlyGlnValValGluAsnIleValArgAspM
+ 7544 : AACCAATTACTGCCTACAAATAGATGATCAAGGACAGGTGGTTGAAAACATAGTCAGGGACA : 7606
+
+   43 : et :   42
+        ||
+        et
+ 7607 : TG : 7608
+
+vulgar: Kidney-32 0 42 . ENST00000623538.1 7482 7608 + 211 M 42 126
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1179 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1179 0 30 . ENST00000609401.6 2163 2253 + 164 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1178 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1178 0 30 . ENST00000609401.6 2163 2253 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1173 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! |||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1173 0 30 . ENST00000609401.6 2163 2253 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1167 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleAsnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1167 0 30 . ENST00000609401.6 2163 2253 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1158 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 167
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysPheAsnGluSer :   30
+        |||||||||||||||| !!|||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1158 0 30 . ENST00000609401.6 2163 2253 + 167 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1156 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1156 0 30 . ENST00000609401.6 2163 2253 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1155 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 172
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1155 0 30 . ENST00000609401.6 2163 2253 + 172 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1154 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1154 0 30 . ENST00000609401.6 2163 2253 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1150 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1150 0 30 . ENST00000609401.6 2163 2253 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1149 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1149 0 30 . ENST00000609401.6 2163 2253 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1148 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1148 0 30 . ENST00000609401.6 2163 2253 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1144 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1144 0 30 . ENST00000609401.6 2163 2253 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1143 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 168
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1143 0 30 . ENST00000609401.6 2163 2253 + 168 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1142 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1142 0 30 . ENST00000609401.6 2163 2253 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1137 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1137 0 30 . ENST00000609401.6 2163 2253 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1136 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1136 0 30 . ENST00000609401.6 2163 2253 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1107 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1107 0 30 . ENST00000609401.6 2163 2253 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1106 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1106 0 30 . ENST00000609401.6 2163 2253 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1101 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1101 0 30 . ENST00000609401.6 2163 2253 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1095 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIlePheLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-1095 0 30 . ENST00000609401.6 2163 2253 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-771 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnArgArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-771 0 30 . ENST00000609401.6 2163 2253 + 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-963 
+        Target: ENST00000609401.6 ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2163 -> 2253
+
+    1 : AsnTrpArgGlyLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        |||||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2164 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2224
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2225 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2253
+
+vulgar: Lung-963 0 30 . ENST00000609401.6 2163 2253 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1179 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1179 0 30 . ENST00000608623.1 4244 4334 + 164 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1178 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1178 0 30 . ENST00000608623.1 4244 4334 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1173 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! |||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1173 0 30 . ENST00000608623.1 4244 4334 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1167 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleAsnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1167 0 30 . ENST00000608623.1 4244 4334 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1158 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 167
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysPheAsnGluSer :   30
+        |||||||||||||||| !!|||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1158 0 30 . ENST00000608623.1 4244 4334 + 167 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1156 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1156 0 30 . ENST00000608623.1 4244 4334 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1155 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 172
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1155 0 30 . ENST00000608623.1 4244 4334 + 172 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1154 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1154 0 30 . ENST00000608623.1 4244 4334 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1150 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1150 0 30 . ENST00000608623.1 4244 4334 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1149 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1149 0 30 . ENST00000608623.1 4244 4334 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1148 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1148 0 30 . ENST00000608623.1 4244 4334 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1144 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1144 0 30 . ENST00000608623.1 4244 4334 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1143 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 168
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1143 0 30 . ENST00000608623.1 4244 4334 + 168 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1142 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1142 0 30 . ENST00000608623.1 4244 4334 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1137 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1137 0 30 . ENST00000608623.1 4244 4334 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1136 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1136 0 30 . ENST00000608623.1 4244 4334 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1107 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1107 0 30 . ENST00000608623.1 4244 4334 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1106 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1106 0 30 . ENST00000608623.1 4244 4334 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1101 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1101 0 30 . ENST00000608623.1 4244 4334 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1095 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIlePheLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-1095 0 30 . ENST00000608623.1 4244 4334 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-771 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnArgArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-771 0 30 . ENST00000608623.1 4244 4334 + 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-963 
+        Target: ENST00000608623.1 ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 4244 -> 4334
+
+    1 : AsnTrpArgGlyLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        |||||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 4245 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4305
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4306 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4334
+
+vulgar: Lung-963 0 30 . ENST00000608623.1 4244 4334 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1179 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1179 0 30 . ENST00000609143.6 2005 2095 + 164 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1178 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1178 0 30 . ENST00000609143.6 2005 2095 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1173 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! |||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1173 0 30 . ENST00000609143.6 2005 2095 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1167 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleAsnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1167 0 30 . ENST00000609143.6 2005 2095 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1158 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 167
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysPheAsnGluSer :   30
+        |||||||||||||||| !!|||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1158 0 30 . ENST00000609143.6 2005 2095 + 167 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1156 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1156 0 30 . ENST00000609143.6 2005 2095 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1155 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 172
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1155 0 30 . ENST00000609143.6 2005 2095 + 172 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1154 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1154 0 30 . ENST00000609143.6 2005 2095 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1150 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1150 0 30 . ENST00000609143.6 2005 2095 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1149 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1149 0 30 . ENST00000609143.6 2005 2095 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1148 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1148 0 30 . ENST00000609143.6 2005 2095 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1144 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1144 0 30 . ENST00000609143.6 2005 2095 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1143 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 168
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1143 0 30 . ENST00000609143.6 2005 2095 + 168 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1142 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1142 0 30 . ENST00000609143.6 2005 2095 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1137 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1137 0 30 . ENST00000609143.6 2005 2095 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1136 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1136 0 30 . ENST00000609143.6 2005 2095 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1107 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1107 0 30 . ENST00000609143.6 2005 2095 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1106 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1106 0 30 . ENST00000609143.6 2005 2095 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1101 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1101 0 30 . ENST00000609143.6 2005 2095 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1095 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIlePheLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-1095 0 30 . ENST00000609143.6 2005 2095 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-771 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnArgArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-771 0 30 . ENST00000609143.6 2005 2095 + 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-963 
+        Target: ENST00000609143.6 ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2005 -> 2095
+
+    1 : AsnTrpArgGlyLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        |||||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2006 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2066
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2067 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2095
+
+vulgar: Lung-963 0 30 . ENST00000609143.6 2005 2095 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1179 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1179 0 30 . ENST00000671033.1 2117 2207 + 164 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1178 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1178 0 30 . ENST00000671033.1 2117 2207 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1173 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! |||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1173 0 30 . ENST00000671033.1 2117 2207 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1167 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleAsnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1167 0 30 . ENST00000671033.1 2117 2207 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1158 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 167
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysPheAsnGluSer :   30
+        |||||||||||||||| !!|||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1158 0 30 . ENST00000671033.1 2117 2207 + 167 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1156 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1156 0 30 . ENST00000671033.1 2117 2207 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1155 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 172
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1155 0 30 . ENST00000671033.1 2117 2207 + 172 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1154 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1154 0 30 . ENST00000671033.1 2117 2207 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1150 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1150 0 30 . ENST00000671033.1 2117 2207 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1149 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1149 0 30 . ENST00000671033.1 2117 2207 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1148 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1148 0 30 . ENST00000671033.1 2117 2207 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1144 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1144 0 30 . ENST00000671033.1 2117 2207 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1143 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 168
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1143 0 30 . ENST00000671033.1 2117 2207 + 168 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1142 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1142 0 30 . ENST00000671033.1 2117 2207 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1137 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1137 0 30 . ENST00000671033.1 2117 2207 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1136 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1136 0 30 . ENST00000671033.1 2117 2207 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1107 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1107 0 30 . ENST00000671033.1 2117 2207 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1106 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1106 0 30 . ENST00000671033.1 2117 2207 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1101 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1101 0 30 . ENST00000671033.1 2117 2207 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1095 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIlePheLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-1095 0 30 . ENST00000671033.1 2117 2207 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-771 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnArgArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-771 0 30 . ENST00000671033.1 2117 2207 + 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-963 
+        Target: ENST00000671033.1 ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2117 -> 2207
+
+    1 : AsnTrpArgGlyLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        |||||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2118 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2178
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2179 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2207
+
+vulgar: Lung-963 0 30 . ENST00000671033.1 2117 2207 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1179 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1179 0 30 . ENST00000656972.1 2155 2245 + 164 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1178 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1178 0 30 . ENST00000656972.1 2155 2245 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1173 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! |||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1173 0 30 . ENST00000656972.1 2155 2245 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1167 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleAsnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1167 0 30 . ENST00000656972.1 2155 2245 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1158 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 167
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysPheAsnGluSer :   30
+        |||||||||||||||| !!|||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1158 0 30 . ENST00000656972.1 2155 2245 + 167 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1156 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1156 0 30 . ENST00000656972.1 2155 2245 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1155 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 172
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1155 0 30 . ENST00000656972.1 2155 2245 + 172 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1154 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1154 0 30 . ENST00000656972.1 2155 2245 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1150 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1150 0 30 . ENST00000656972.1 2155 2245 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1149 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1149 0 30 . ENST00000656972.1 2155 2245 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1148 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1148 0 30 . ENST00000656972.1 2155 2245 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1144 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1144 0 30 . ENST00000656972.1 2155 2245 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1143 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 168
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1143 0 30 . ENST00000656972.1 2155 2245 + 168 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1142 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1142 0 30 . ENST00000656972.1 2155 2245 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1137 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1137 0 30 . ENST00000656972.1 2155 2245 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1136 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1136 0 30 . ENST00000656972.1 2155 2245 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1107 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1107 0 30 . ENST00000656972.1 2155 2245 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1106 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1106 0 30 . ENST00000656972.1 2155 2245 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1101 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1101 0 30 . ENST00000656972.1 2155 2245 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1095 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIlePheLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-1095 0 30 . ENST00000656972.1 2155 2245 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-771 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnArgArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-771 0 30 . ENST00000656972.1 2155 2245 + 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-963 
+        Target: ENST00000656972.1 ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2155 -> 2245
+
+    1 : AsnTrpArgGlyLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        |||||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2156 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2216
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2217 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2245
+
+vulgar: Lung-963 0 30 . ENST00000656972.1 2155 2245 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1179 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1179 0 30 . ENST00000662156.1 2294 2384 + 164 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1178 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1178 0 30 . ENST00000662156.1 2294 2384 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1173 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! |||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1173 0 30 . ENST00000662156.1 2294 2384 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1167 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleAsnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1167 0 30 . ENST00000662156.1 2294 2384 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1158 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 167
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysPheAsnGluSer :   30
+        |||||||||||||||| !!|||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1158 0 30 . ENST00000662156.1 2294 2384 + 167 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1156 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1156 0 30 . ENST00000662156.1 2294 2384 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1155 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 172
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1155 0 30 . ENST00000662156.1 2294 2384 + 172 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1154 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1154 0 30 . ENST00000662156.1 2294 2384 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1150 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1150 0 30 . ENST00000662156.1 2294 2384 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1149 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1149 0 30 . ENST00000662156.1 2294 2384 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1148 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1148 0 30 . ENST00000662156.1 2294 2384 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1144 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1144 0 30 . ENST00000662156.1 2294 2384 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1143 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 168
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1143 0 30 . ENST00000662156.1 2294 2384 + 168 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1142 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1142 0 30 . ENST00000662156.1 2294 2384 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1137 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1137 0 30 . ENST00000662156.1 2294 2384 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1136 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1136 0 30 . ENST00000662156.1 2294 2384 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1107 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1107 0 30 . ENST00000662156.1 2294 2384 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1106 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1106 0 30 . ENST00000662156.1 2294 2384 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1101 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1101 0 30 . ENST00000662156.1 2294 2384 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1095 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIlePheLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-1095 0 30 . ENST00000662156.1 2294 2384 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-771 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnArgArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-771 0 30 . ENST00000662156.1 2294 2384 + 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-963 
+        Target: ENST00000662156.1 ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 2294 -> 2384
+
+    1 : AsnTrpArgGlyLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        |||||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 2295 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 2355
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 2356 : AGAATGCTGTTTCTGTGTTAATGAATCT : 2384
+
+vulgar: Lung-963 0 30 . ENST00000662156.1 2294 2384 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1179 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1179 0 30 . ENST00000670242.1 3957 4047 + 164 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1178 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1178 0 30 . ENST00000670242.1 3957 4047 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1173 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! |||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1173 0 30 . ENST00000670242.1 3957 4047 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1167 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleAsnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1167 0 30 . ENST00000670242.1 3957 4047 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1158 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 167
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysPheAsnGluSer :   30
+        |||||||||||||||| !!|||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1158 0 30 . ENST00000670242.1 3957 4047 + 167 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1156 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1156 0 30 . ENST00000670242.1 3957 4047 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1155 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 172
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1155 0 30 . ENST00000670242.1 3957 4047 + 172 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1154 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1154 0 30 . ENST00000670242.1 3957 4047 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1150 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1150 0 30 . ENST00000670242.1 3957 4047 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1149 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1149 0 30 . ENST00000670242.1 3957 4047 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1148 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1148 0 30 . ENST00000670242.1 3957 4047 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1144 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1144 0 30 . ENST00000670242.1 3957 4047 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1143 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 168
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1143 0 30 . ENST00000670242.1 3957 4047 + 168 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1142 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1142 0 30 . ENST00000670242.1 3957 4047 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1137 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1137 0 30 . ENST00000670242.1 3957 4047 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1136 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1136 0 30 . ENST00000670242.1 3957 4047 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1107 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1107 0 30 . ENST00000670242.1 3957 4047 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1106 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1106 0 30 . ENST00000670242.1 3957 4047 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1101 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1101 0 30 . ENST00000670242.1 3957 4047 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1095 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIlePheLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-1095 0 30 . ENST00000670242.1 3957 4047 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-771 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnArgArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-771 0 30 . ENST00000670242.1 3957 4047 + 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-963 
+        Target: ENST00000670242.1 ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 3957 -> 4047
+
+    1 : AsnTrpArgGlyLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        |||||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 3958 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 4018
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 4019 : AGAATGCTGTTTCTGTGTTAATGAATCT : 4047
+
+vulgar: Lung-963 0 30 . ENST00000670242.1 3957 4047 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1179 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1179 0 30 . ENST00000665925.1 1060 1150 + 164 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1178 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1178 0 30 . ENST00000665925.1 1060 1150 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1173 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! |||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1173 0 30 . ENST00000665925.1 1060 1150 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1167 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleAsnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1167 0 30 . ENST00000665925.1 1060 1150 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1158 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 167
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysPheAsnGluSer :   30
+        |||||||||||||||| !!|||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1158 0 30 . ENST00000665925.1 1060 1150 + 167 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1156 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1156 0 30 . ENST00000665925.1 1060 1150 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1155 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 172
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1155 0 30 . ENST00000665925.1 1060 1150 + 172 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1154 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1154 0 30 . ENST00000665925.1 1060 1150 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1150 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1150 0 30 . ENST00000665925.1 1060 1150 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1149 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1149 0 30 . ENST00000665925.1 1060 1150 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1148 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1148 0 30 . ENST00000665925.1 1060 1150 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1144 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1144 0 30 . ENST00000665925.1 1060 1150 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1143 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 168
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1143 0 30 . ENST00000665925.1 1060 1150 + 168 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1142 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1142 0 30 . ENST00000665925.1 1060 1150 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1137 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1137 0 30 . ENST00000665925.1 1060 1150 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1136 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1136 0 30 . ENST00000665925.1 1060 1150 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1107 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1107 0 30 . ENST00000665925.1 1060 1150 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1106 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1106 0 30 . ENST00000665925.1 1060 1150 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1101 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1101 0 30 . ENST00000665925.1 1060 1150 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1095 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIlePheLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-1095 0 30 . ENST00000665925.1 1060 1150 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-771 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnArgArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-771 0 30 . ENST00000665925.1 1060 1150 + 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-963 
+        Target: ENST00000665925.1 ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 1060 -> 1150
+
+    1 : AsnTrpArgGlyLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        |||||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1061 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1121
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1122 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1150
+
+vulgar: Lung-963 0 30 . ENST00000665925.1 1060 1150 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1179 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 164
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1179 0 30 . ENST00000654240.1 1306 1396 + 164 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1178 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! ||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1178 0 30 . ENST00000654240.1 1306 1396 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1173 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 161
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleGlnLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| ! |||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1173 0 30 . ENST00000654240.1 1306 1396 + 161 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1167 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleAsnLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||| !!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1167 0 30 . ENST00000654240.1 1306 1396 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1158 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 167
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysPheAsnGluSer :   30
+        |||||||||||||||| !!|||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1158 0 30 . ENST00000654240.1 1306 1396 + 167 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1156 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1156 0 30 . ENST00000654240.1 1306 1396 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1155 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 172
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1155 0 30 . ENST00000654240.1 1306 1396 + 172 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1154 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1154 0 30 . ENST00000654240.1 1306 1396 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1150 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1150 0 30 . ENST00000654240.1 1306 1396 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1149 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 169
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1149 0 30 . ENST00000654240.1 1306 1396 + 169 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1148 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1148 0 30 . ENST00000654240.1 1306 1396 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1144 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnThrSer :   30
+        ||||||||||||||||||||||  !|||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1144 0 30 . ENST00000654240.1 1306 1396 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1143 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 168
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1143 0 30 . ENST00000654240.1 1306 1396 + 168 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1142 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGlnGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1142 0 30 . ENST00000654240.1 1306 1396 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1137 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1137 0 30 . ENST00000654240.1 1306 1396 + 165 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1136 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||||||||||||||!:!|||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1136 0 30 . ENST00000654240.1 1306 1396 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1107 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 166
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1107 0 30 . ENST00000654240.1 1306 1396 + 166 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1106 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !|||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGlnSer :   30
+        ||||||||||||||||||||||:!!|||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1106 0 30 . ENST00000654240.1 1306 1396 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1101 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 163
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIleTyrLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||||||||:!!||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1101 0 30 . ENST00000654240.1 1306 1396 + 163 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-1095 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyLeuCysIlePheLeuGlnGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||  !||||||!:!||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-1095 0 30 . ENST00000654240.1 1306 1396 + 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-771 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnArgArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        ||| !!||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-771 0 30 . ENST00000654240.1 1306 1396 + 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Lung-963 
+        Target: ENST00000654240.1 ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+         Model: ungapped:protein2dna
+     Raw score: 165
+   Query range: 0 -> 30
+  Target range: 1306 -> 1396
+
+    1 : AsnTrpArgGlyLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl :   21
+        |||||||||! !||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnTrpArgValLeuAspLeuLeuThrThrGluLysGlyGlyThrCysIleTyrLeuGlnGl
+ 1307 : AACTGGAGAGTCCTGGACCTCCTAACCACTGAGAAAGGGGGTACCTGCATATACCTCCAGGA : 1367
+
+   22 : uGluCysCysPheCysValAsnGluSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheCysValAsnGluSer
+ 1368 : AGAATGCTGTTTCTGTGTTAATGAATCT : 1396
+
+vulgar: Lung-963 0 30 . ENST00000654240.1 1306 1396 + 165 M 30 90
+Protein
+-- completed exonerate analysis

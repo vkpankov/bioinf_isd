@@ -1,0 +1,11 @@
+#Транслирование генома в 6 рамках
+transeq transcriptome/Homo_sapiens.GRCh38.cdna.all.fa -frame 6
+
+#Выравнивание Exonerate (ver 2.4.0): 
+exonerate -q peptides.fasta -t uniprot-proteome_UP000005640.fasta --
+verbose 1 --percent 95 --cores 8 --ryo "%qt\n" > exonerate_proteome_95.gff
+
+#Выравнивание HMMER (ver 3.2.1)
+hmmbuild hmms/eye.hmm source/eye.aln
+hmmsearch --tblout \t --notextw -E 0.00001 --incE 0.00001 --cpu 8 --max all.hmm transcriptome/cdna.fasta > all_aligned_cdna.out
+hmmsearch --tblout \t --notextw -E 0.00001 --incE 0.00001 --cpu 8 --max all.hmm uniprot-proteome_UP000005640.fasta > proteome_hmm.out

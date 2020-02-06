@@ -1,0 +1,2083 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  all.hmm
+# target sequence database:        transcriptome/nc.fasta
+# per-seq hits tabular output:     t
+# max ASCII text line length:      unlimited
+# sequence reporting threshold:    E-value <= 1e-05
+# sequence inclusion threshold:    E-value <= 1e-05
+# Max sensitivity mode:            on [all heuristic filters off]
+# number of worker threads:        8
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       adipose  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    3.3e-08   37.2   0.7    5.9e-08   36.4   0.7    1.4  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.4   0.7   1.7e-13   5.9e-08       4      30 .]     317     343 ..     316     343 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 36.4 bits;  conditional E-value: 1.7e-13
+              adipose   4 GLeNlTAETGflCIFLeDQCCWDvNQS 30 
+                          GL+ lTAE G lCIFL+  CC   NQS
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          9*************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 31.85u 0.45s 00:00:32.30 Elapsed: 00:00:04.47
+# Mc/sec: 890.33
+//
+Query:       bladder  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    4.6e-07   33.7   2.4    9.9e-07   32.7   2.4    1.5  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    5.9e-06   30.2   1.7    1.3e-05   29.1   1.7    1.6  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.7   2.4   5.7e-12   9.9e-07       4      29 ..     317     342 ..     316     343 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 32.7 bits;  conditional E-value: 5.7e-12
+              bladder   4 GLDLLNedTGPLClFLEDECCLevNQ 29 
+                          GLDLL +  G LC+FL  +CC ++NQ
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQ 342
+                          9************************* PP
+
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.1   1.7   7.3e-11   1.3e-05       4      29 ..     489     514 ..     489     515 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 29.1 bits;  conditional E-value: 7.3e-11
+              bladder   4 GLDLLNedTGPLClFLEDECCLevNQ 29 
+                          GLDLL +  G LC FL  ECC + NQ
+  ENST00000657350.1_1 489 GLDLLIAKKGGLCTFLGEECCFYTNQ 514
+                          9************************* PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 34.65u 0.43s 00:00:35.08 Elapsed: 00:00:04.59
+# Mc/sec: 867.06
+//
+Query:       brain  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    1.5e-11   48.1   3.3    1.5e-11   48.1   3.3    2.4  2  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.6e-11   48.0   3.3    1.6e-11   48.0   3.3    2.3  2  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.4e-11   47.4   3.3    2.4e-11   47.4   3.3    2.1  2  ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.5e-11   47.4   3.3    2.5e-11   47.4   3.3    2.1  2  ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.5e-11   47.4   3.3    2.5e-11   47.4   3.3    2.1  2  ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.5e-11   47.3   3.3    2.5e-11   47.3   3.3    2.1  2  ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.6e-11   47.3   3.3    2.6e-11   47.3   3.3    2.1  2  ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    4.3e-11   46.6   3.3    4.3e-11   46.6   3.3    1.9  2  ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    4.6e-11   46.5   3.3    4.6e-11   46.5   3.3    1.9  2  ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      5e-11   46.4   1.9      1e-10   45.4   1.9    1.5  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+      5e-10   43.2   2.2      1e-09   42.2   2.2    1.5  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   0.1       1.5   4.8e+04       8      16 ..     245     253 ..     244     256 .. 0.81
+   2 !   48.1   3.3   4.6e-16   1.5e-11       1      29 [.     354     382 ..     354     383 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 1.5
+                brain   8 LTAErsGlC 16 
+                          L A  sG+C
+  ENST00000665925.1_2 245 LPANWSGTC 253
+                          56889**** PP
+
+  == domain 2  score: 48.1 bits;  conditional E-value: 4.6e-16
+                brain   1 NrkaLdLLTAErsGlClFLeEECCydHNQ 29 
+                          N++ LdLLT E++G+C++L+EECC+  N 
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 382
+                          9************************8775 PP
+
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.6   0.1       1.6   5.2e+04       8      16 ..     327     335 ..     326     338 .. 0.81
+   2 !   48.0   3.3     5e-16   1.6e-11       1      29 [.     436     464 ..     436     465 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -1.6 bits;  conditional E-value: 1.6
+                brain   8 LTAErsGlC 16 
+                          L A  sG+C
+  ENST00000654240.1_2 327 LPANWSGTC 335
+                          56889**** PP
+
+  == domain 2  score: 48.0 bits;  conditional E-value: 5e-16
+                brain   1 NrkaLdLLTAErsGlClFLeEECCydHNQ 29 
+                          N++ LdLLT E++G+C++L+EECC+  N 
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 464
+                          9************************8775 PP
+
+>> ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.5   0.0         3   9.5e+04       9      16 ..     561     568 ..     560     570 .. 0.80
+   2 !   47.4   3.3   7.5e-16   2.4e-11       1      29 [.     669     697 ..     669     698 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -2.5 bits;  conditional E-value: 3
+                brain   9 TAErsGlC 16 
+                           A  sG+C
+  ENST00000609143.6_2 561 PANWSGTC 568
+                          5888**** PP
+
+  == domain 2  score: 47.4 bits;  conditional E-value: 7.5e-16
+                brain   1 NrkaLdLLTAErsGlClFLeEECCydHNQ 29 
+                          N++ LdLLT E++G+C++L+EECC+  N 
+  ENST00000609143.6_2 669 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 697
+                          9************************8775 PP
+
+>> ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.5   0.0       3.1   9.9e+04       9      16 ..     598     605 ..     597     607 .. 0.80
+   2 !   47.4   3.3   7.9e-16   2.5e-11       1      29 [.     706     734 ..     706     735 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -2.5 bits;  conditional E-value: 3.1
+                brain   9 TAErsGlC 16 
+                           A  sG+C
+  ENST00000671033.1_3 598 PANWSGTC 605
+                          5888**** PP
+
+  == domain 2  score: 47.4 bits;  conditional E-value: 7.9e-16
+                brain   1 NrkaLdLLTAErsGlClFLeEECCydHNQ 29 
+                          N++ LdLLT E++G+C++L+EECC+  N 
+  ENST00000671033.1_3 706 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 734
+                          9************************8775 PP
+
+>> ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.5   0.0       3.2     1e+05       9      16 ..     611     618 ..     610     620 .. 0.80
+   2 !   47.4   3.3     8e-16   2.5e-11       1      29 [.     719     747 ..     719     748 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -2.5 bits;  conditional E-value: 3.2
+                brain   9 TAErsGlC 16 
+                           A  sG+C
+  ENST00000656972.1_2 611 PANWSGTC 618
+                          5888**** PP
+
+  == domain 2  score: 47.4 bits;  conditional E-value: 8e-16
+                brain   1 NrkaLdLLTAErsGlClFLeEECCydHNQ 29 
+                          N++ LdLLT E++G+C++L+EECC+  N 
+  ENST00000656972.1_2 719 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 747
+                          9************************8775 PP
+
+>> ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.6   0.0       3.2     1e+05       9      16 ..     614     621 ..     613     623 .. 0.80
+   2 !   47.3   3.3     8e-16   2.5e-11       1      29 [.     722     750 ..     722     751 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -2.6 bits;  conditional E-value: 3.2
+                brain   9 TAErsGlC 16 
+                           A  sG+C
+  ENST00000609401.6_1 614 PANWSGTC 621
+                          5888**** PP
+
+  == domain 2  score: 47.3 bits;  conditional E-value: 8e-16
+                brain   1 NrkaLdLLTAErsGlClFLeEECCydHNQ 29 
+                          N++ LdLLT E++G+C++L+EECC+  N 
+  ENST00000609401.6_1 722 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 750
+                          9************************8775 PP
+
+>> ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.6   0.0       3.3     1e+05       9      16 ..     657     664 ..     656     666 .. 0.80
+   2 !   47.3   3.3   8.4e-16   2.6e-11       1      29 [.     765     793 ..     765     794 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -2.6 bits;  conditional E-value: 3.3
+                brain   9 TAErsGlC 16 
+                           A  sG+C
+  ENST00000662156.1_3 657 PANWSGTC 664
+                          5888**** PP
+
+  == domain 2  score: 47.3 bits;  conditional E-value: 8.4e-16
+                brain   1 NrkaLdLLTAErsGlClFLeEECCydHNQ 29 
+                          N++ LdLLT E++G+C++L+EECC+  N 
+  ENST00000662156.1_3 765 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 793
+                          9************************8775 PP
+
+>> ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.2   0.0       5.2   1.7e+05       9      16 ..    1212    1219 ..    1211    1221 .. 0.80
+   2 !   46.6   3.3   1.3e-15   4.3e-11       1      29 [.    1320    1348 ..    1320    1349 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -3.2 bits;  conditional E-value: 5.2
+                brain    9 TAErsGlC 16  
+                            A  sG+C
+  ENST00000670242.1_1 1212 PANWSGTC 1219
+                           5888**** PP
+
+  == domain 2  score: 46.6 bits;  conditional E-value: 1.3e-15
+                brain    1 NrkaLdLLTAErsGlClFLeEECCydHNQ 29  
+                           N++ LdLLT E++G+C++L+EECC+  N 
+  ENST00000670242.1_1 1320 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 1348
+                           9************************8775 PP
+
+>> ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.6   0.0       6.7   2.1e+05       9      16 ..    1307    1314 ..    1306    1315 .. 0.81
+   2 !   46.5   3.3   1.4e-15   4.6e-11       1      29 [.    1415    1443 ..    1415    1444 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -3.6 bits;  conditional E-value: 6.7
+                brain    9 TAErsGlC 16  
+                            A  sG+C
+  ENST00000608623.1_3 1307 PANWSGTC 1314
+                           5888**** PP
+
+  == domain 2  score: 46.5 bits;  conditional E-value: 1.4e-15
+                brain    1 NrkaLdLLTAErsGlClFLeEECCydHNQ 29  
+                           N++ LdLLT E++G+C++L+EECC+  N 
+  ENST00000608623.1_3 1415 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 1443
+                           9************************8775 PP
+
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.4   1.9   3.2e-15     1e-10       4      30 .]     317     343 ..     316     343 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 45.4 bits;  conditional E-value: 3.2e-15
+                brain   4 aLdLLTAErsGlClFLeEECCydHNQs 30 
+                          +LdLLTAE++ lC+FL+E CC++ NQs
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          8*************************8 PP
+
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.2   2.2   3.2e-14     1e-09       4      30 .]     489     515 ..     489     515 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 42.2 bits;  conditional E-value: 3.2e-14
+                brain   4 aLdLLTAErsGlClFLeEECCydHNQs 30 
+                          +LdLL A ++GlC FL+EECC++ NQs
+  ENST00000657350.1_1 489 GLDLLIAKKGGLCTFLGEECCFYTNQS 515
+                          8*************************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 34.15u 0.54s 00:00:34.69 Elapsed: 00:00:04.94
+# Mc/sec: 805.63
+//
+Query:       cervix  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+      5e-08   36.8   3.2    9.9e-08   35.8   3.2    1.5  1  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    5.1e-08   36.7   3.2    1.1e-07   35.7   3.2    1.6  1  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      8e-08   36.1   3.2    1.6e-07   35.1   3.2    1.6  1  ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    8.4e-08   36.0   3.2    1.8e-07   35.0   3.2    1.6  1  ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    8.6e-08   36.0   3.2    1.7e-07   35.1   3.2    1.5  1  ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    8.8e-08   36.0   3.2    1.7e-07   35.1   3.2    1.5  1  ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    9.1e-08   35.9   3.2    1.7e-07   35.1   3.2    1.5  1  ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.6e-07   35.1   3.2    2.9e-07   34.3   3.2    1.4  1  ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.7e-07   35.1   3.2    3.1e-07   34.2   3.2    1.4  1  ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    3.6e-07   34.0   1.7    6.8e-07   33.2   1.7    1.4  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    1.7e-06   31.8   3.1    3.8e-06   30.8   3.1    1.6  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   3.2   3.1e-12   9.9e-08       1      30 []     354     383 ..     354     383 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 3.1e-12
+               cervix   1 NRRGlDLLyFETGGLClFLEEECCfsVNtS 30 
+                          N R lDLL  E GG C++L EECCf VN S
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 383
+                          6799************************87 PP
+
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.7   3.2   3.4e-12   1.1e-07       1      30 []     436     465 ..     436     465 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 35.7 bits;  conditional E-value: 3.4e-12
+               cervix   1 NRRGlDLLyFETGGLClFLEEECCfsVNtS 30 
+                          N R lDLL  E GG C++L EECCf VN S
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 465
+                          6799************************87 PP
+
+>> ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   3.2   5.1e-12   1.6e-07       1      30 []     669     698 ..     669     698 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 5.1e-12
+               cervix   1 NRRGlDLLyFETGGLClFLEEECCfsVNtS 30 
+                          N R lDLL  E GG C++L EECCf VN S
+  ENST00000609143.6_2 669 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 698
+                          6799************************87 PP
+
+>> ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.0   3.2   5.7e-12   1.8e-07       1      30 []     765     794 ..     765     794 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 35.0 bits;  conditional E-value: 5.7e-12
+               cervix   1 NRRGlDLLyFETGGLClFLEEECCfsVNtS 30 
+                          N R lDLL  E GG C++L EECCf VN S
+  ENST00000662156.1_3 765 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 794
+                          6799************************87 PP
+
+>> ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   3.2   5.4e-12   1.7e-07       1      30 []     719     748 ..     719     748 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 5.4e-12
+               cervix   1 NRRGlDLLyFETGGLClFLEEECCfsVNtS 30 
+                          N R lDLL  E GG C++L EECCf VN S
+  ENST00000656972.1_2 719 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 748
+                          6799************************87 PP
+
+>> ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   3.2   5.4e-12   1.7e-07       1      30 []     722     751 ..     722     751 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 5.4e-12
+               cervix   1 NRRGlDLLyFETGGLClFLEEECCfsVNtS 30 
+                          N R lDLL  E GG C++L EECCf VN S
+  ENST00000609401.6_1 722 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 751
+                          6799************************87 PP
+
+>> ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   3.2   5.3e-12   1.7e-07       1      30 []     706     735 ..     706     735 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 5.3e-12
+               cervix   1 NRRGlDLLyFETGGLClFLEEECCfsVNtS 30 
+                          N R lDLL  E GG C++L EECCf VN S
+  ENST00000671033.1_3 706 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 735
+                          6799************************87 PP
+
+>> ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   3.2   9.2e-12   2.9e-07       1      30 []    1320    1349 ..    1320    1349 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 9.2e-12
+               cervix    1 NRRGlDLLyFETGGLClFLEEECCfsVNtS 30  
+                           N R lDLL  E GG C++L EECCf VN S
+  ENST00000670242.1_1 1320 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1349
+                           6799************************87 PP
+
+>> ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.2   3.2   9.8e-12   3.1e-07       1      30 []    1415    1444 ..    1415    1444 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 34.2 bits;  conditional E-value: 9.8e-12
+               cervix    1 NRRGlDLLyFETGGLClFLEEECCfsVNtS 30  
+                           N R lDLL  E GG C++L EECCf VN S
+  ENST00000608623.1_3 1415 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1444
+                           6799************************87 PP
+
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.2   1.7   2.1e-11   6.8e-07       4      30 .]     317     343 ..     316     343 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 33.2 bits;  conditional E-value: 2.1e-11
+               cervix   4 GlDLLyFETGGLClFLEEECCfsVNtS 30 
+                          GlDLL  E G LC+FL E+CCf  N S
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          9***********************987 PP
+
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.8   3.1   1.2e-10   3.8e-06       4      30 .]     489     515 ..     489     515 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 30.8 bits;  conditional E-value: 1.2e-10
+               cervix   4 GlDLLyFETGGLClFLEEECCfsVNtS 30 
+                          GlDLL    GGLC FL EECCf  N S
+  ENST00000657350.1_1 489 GLDLLIAKKGGLCTFLGEECCFYTNQS 515
+                          9*********************99987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 33.89u 0.55s 00:00:34.44 Elapsed: 00:00:05.29
+# Mc/sec: 752.32
+//
+Query:       colon  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    1.9e-16   63.8   3.1    3.6e-16   62.9   3.1    1.4  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    1.1e-10   45.4   2.0    2.5e-10   44.2   2.0    1.7  1  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.2e-10   45.3   3.5    1.2e-10   45.3   3.5    1.8  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+    1.2e-10   45.3   2.0    2.8e-10   44.1   2.0    1.7  1  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.1e-10   44.5   2.0    4.4e-10   43.5   2.0    1.6  1  ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.1e-10   44.5   2.0    4.4e-10   43.5   2.0    1.6  1  ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.2e-10   44.5   2.0    4.1e-10   43.5   2.0    1.5  1  ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.2e-10   44.4   2.0    4.6e-10   43.4   2.0    1.6  1  ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.3e-10   44.4   2.0    4.3e-10   43.5   2.0    1.5  1  ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    4.1e-10   43.6   2.0    7.4e-10   42.7   2.0    1.4  1  ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    4.2e-10   43.5   2.0    7.9e-10   42.6   2.0    1.5  1  ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.7e-07   35.2   3.3    4.7e-07   33.8   3.3    1.8  1  ENST00000604411.1_5  ncrna chromosome:GRCh38:X:73792205:73829231:1 gene:ENSG00000270641.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:TSIX description:TSIX transcript, XIST antisense RNA [Source:HGNC Symbol;Acc:HGNC:12377]
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9   3.1   1.2e-20   3.6e-16       4      30 .]     317     343 ..     316     343 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 62.9 bits;  conditional E-value: 1.2e-20
+                colon   4 GlDLLTAEKGvlCIFlNeECCFYLNQS 30 
+                          GlDLLTAEKG lCIFlNe+CCFYLNQS
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          9*************************9 PP
+
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.2   2.0   8.8e-15   2.5e-10       1      30 []     354     383 ..     354     383 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 44.2 bits;  conditional E-value: 8.8e-15
+                colon   1 NrRGlDLLTAEKGvlCIFlNeECCFYLNQS 30 
+                          N R lDLLT EKG+ CI+l eECCF  N S
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 383
+                          7899***********************987 PP
+
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.3   3.5     4e-15   1.2e-10       4      30 .]     489     515 ..     489     515 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 45.3 bits;  conditional E-value: 4e-15
+                colon   4 GlDLLTAEKGvlCIFlNeECCFYLNQS 30 
+                          GlDLL A KG+lC Fl eECCFY NQS
+  ENST00000657350.1_1 489 GLDLLIAKKGGLCTFLGEECCFYTNQS 515
+                          9*************************9 PP
+
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.1   2.0   9.5e-15   2.8e-10       1      30 []     436     465 ..     436     465 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 44.1 bits;  conditional E-value: 9.5e-15
+                colon   1 NrRGlDLLTAEKGvlCIFlNeECCFYLNQS 30 
+                          N R lDLLT EKG+ CI+l eECCF  N S
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 465
+                          7899***********************987 PP
+
+>> ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   2.0   1.5e-14   4.4e-10       1      30 []     719     748 ..     719     748 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 1.5e-14
+                colon   1 NrRGlDLLTAEKGvlCIFlNeECCFYLNQS 30 
+                          N R lDLLT EKG+ CI+l eECCF  N S
+  ENST00000656972.1_2 719 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 748
+                          7899***********************987 PP
+
+>> ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   2.0   1.5e-14   4.4e-10       1      30 []     722     751 ..     722     751 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 1.5e-14
+                colon   1 NrRGlDLLTAEKGvlCIFlNeECCFYLNQS 30 
+                          N R lDLLT EKG+ CI+l eECCF  N S
+  ENST00000609401.6_1 722 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 751
+                          7899***********************987 PP
+
+>> ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   2.0   1.4e-14   4.1e-10       1      30 []     669     698 ..     669     698 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 1.4e-14
+                colon   1 NrRGlDLLTAEKGvlCIFlNeECCFYLNQS 30 
+                          N R lDLLT EKG+ CI+l eECCF  N S
+  ENST00000609143.6_2 669 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 698
+                          7899***********************987 PP
+
+>> ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.4   2.0   1.6e-14   4.6e-10       1      30 []     765     794 ..     765     794 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 43.4 bits;  conditional E-value: 1.6e-14
+                colon   1 NrRGlDLLTAEKGvlCIFlNeECCFYLNQS 30 
+                          N R lDLLT EKG+ CI+l eECCF  N S
+  ENST00000662156.1_3 765 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 794
+                          7899***********************987 PP
+
+>> ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.5   2.0   1.5e-14   4.3e-10       1      30 []     706     735 ..     706     735 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 43.5 bits;  conditional E-value: 1.5e-14
+                colon   1 NrRGlDLLTAEKGvlCIFlNeECCFYLNQS 30 
+                          N R lDLLT EKG+ CI+l eECCF  N S
+  ENST00000671033.1_3 706 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 735
+                          7899***********************987 PP
+
+>> ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.7   2.0   2.6e-14   7.4e-10       1      30 []    1320    1349 ..    1320    1349 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 42.7 bits;  conditional E-value: 2.6e-14
+                colon    1 NrRGlDLLTAEKGvlCIFlNeECCFYLNQS 30  
+                           N R lDLLT EKG+ CI+l eECCF  N S
+  ENST00000670242.1_1 1320 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1349
+                           7899***********************987 PP
+
+>> ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.6   2.0   2.7e-14   7.9e-10       1      30 []    1415    1444 ..    1415    1444 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 42.6 bits;  conditional E-value: 2.7e-14
+                colon    1 NrRGlDLLTAEKGvlCIFlNeECCFYLNQS 30  
+                           N R lDLLT EKG+ CI+l eECCF  N S
+  ENST00000608623.1_3 1415 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1444
+                           7899***********************987 PP
+
+>> ENST00000604411.1_5  ncrna chromosome:GRCh38:X:73792205:73829231:1 gene:ENSG00000270641.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:TSIX description:TSIX transcript, XIST antisense RNA [Source:HGNC Symbol;Acc:HGNC:12377]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.8   3.3   1.6e-11   4.7e-07       4      30 .]    8958    8983 ..    8958    8983 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 33.8 bits;  conditional E-value: 1.6e-11
+                colon    4 GlDLLTAEKGvlCIFlNeECCFYLNQS 30  
+                           GlDLL   K +lC+FlNe CCFYLNQS
+  ENST00000604411.1_5 8958 GLDLLL-KKRGLCVFLNEKCCFYLNQS 8983
+                           899997.5778***************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 34.86u 0.61s 00:00:35.47 Elapsed: 00:00:05.45
+# Mc/sec: 730.24
+//
+Query:       eye  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    8.7e-13   51.8   3.3    2.6e-12   50.3   3.3    1.9  1  ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    8.8e-13   51.8   3.3    2.4e-12   50.4   3.3    1.8  1  ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    9.2e-13   51.8   3.3    2.6e-12   50.3   3.3    1.8  1  ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    9.3e-13   51.7   3.3    2.5e-12   50.3   3.3    1.8  1  ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      1e-12   51.6   3.3    2.7e-12   50.3   3.3    1.8  1  ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.4e-12   51.1   5.0    1.5e-12   51.1   3.3    2.0  2  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.5e-12   51.1   5.0    1.6e-12   51.0   3.3    2.0  2  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.9e-12   50.7   3.3    4.4e-12   49.6   3.3    1.7  1  ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.1e-12   50.6   3.3    4.7e-12   49.5   3.3    1.6  1  ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.3e-09   41.6   1.5    2.7e-09   40.6   1.5    1.5  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    8.7e-07   32.6   2.8    1.9e-06   31.5   2.8    1.6  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.3   3.3   8.1e-17   2.6e-12       1      30 []     719     748 ..     719     748 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 50.3 bits;  conditional E-value: 8.1e-17
+                  eye   1 NrRALeLLTAEkGGTCLaLQEECCtYLNqS 30 
+                          N+R L+LLT EkGGTC++LQEECC   N+S
+  ENST00000656972.1_2 719 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 748
+                          9************************99998 PP
+
+>> ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.4   3.3   7.7e-17   2.4e-12       1      30 []     669     698 ..     669     698 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 50.4 bits;  conditional E-value: 7.7e-17
+                  eye   1 NrRALeLLTAEkGGTCLaLQEECCtYLNqS 30 
+                          N+R L+LLT EkGGTC++LQEECC   N+S
+  ENST00000609143.6_2 669 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 698
+                          9************************99998 PP
+
+>> ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.3   3.3   8.2e-17   2.6e-12       1      30 []     722     751 ..     722     751 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 50.3 bits;  conditional E-value: 8.2e-17
+                  eye   1 NrRALeLLTAEkGGTCLaLQEECCtYLNqS 30 
+                          N+R L+LLT EkGGTC++LQEECC   N+S
+  ENST00000609401.6_1 722 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 751
+                          9************************99998 PP
+
+>> ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.3   3.3     8e-17   2.5e-12       1      30 []     706     735 ..     706     735 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 50.3 bits;  conditional E-value: 8e-17
+                  eye   1 NrRALeLLTAEkGGTCLaLQEECCtYLNqS 30 
+                          N+R L+LLT EkGGTC++LQEECC   N+S
+  ENST00000671033.1_3 706 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 735
+                          9************************99998 PP
+
+>> ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.3   3.3   8.6e-17   2.7e-12       1      30 []     765     794 ..     765     794 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 50.3 bits;  conditional E-value: 8.6e-17
+                  eye   1 NrRALeLLTAEkGGTCLaLQEECCtYLNqS 30 
+                          N+R L+LLT EkGGTC++LQEECC   N+S
+  ENST00000662156.1_3 765 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 794
+                          9************************99998 PP
+
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.5   0.0       5.3   1.7e+05      10      16 ..     247     253 ..     245     257 .. 0.73
+   2 !   51.1   3.3   4.7e-17   1.5e-12       1      30 []     354     383 ..     354     383 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -3.5 bits;  conditional E-value: 5.3
+                  eye  10 AEkGGTC 16 
+                          A   GTC
+  ENST00000665925.1_2 247 ANWSGTC 253
+                          56679*9 PP
+
+  == domain 2  score: 51.1 bits;  conditional E-value: 4.7e-17
+                  eye   1 NrRALeLLTAEkGGTCLaLQEECCtYLNqS 30 
+                          N+R L+LLT EkGGTC++LQEECC   N+S
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 383
+                          9************************99998 PP
+
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.6   0.0       5.7   1.8e+05      10      16 ..     329     335 ..     327     339 .. 0.73
+   2 !   51.0   3.3   5.1e-17   1.6e-12       1      30 []     436     465 ..     436     465 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: -3.6 bits;  conditional E-value: 5.7
+                  eye  10 AEkGGTC 16 
+                          A   GTC
+  ENST00000654240.1_2 329 ANWSGTC 335
+                          56679*9 PP
+
+  == domain 2  score: 51.0 bits;  conditional E-value: 5.1e-17
+                  eye   1 NrRALeLLTAEkGGTCLaLQEECCtYLNqS 30 
+                          N+R L+LLT EkGGTC++LQEECC   N+S
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 465
+                          9************************99998 PP
+
+>> ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.6   3.3   1.4e-16   4.4e-12       1      30 []    1320    1349 ..    1320    1349 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 49.6 bits;  conditional E-value: 1.4e-16
+                  eye    1 NrRALeLLTAEkGGTCLaLQEECCtYLNqS 30  
+                           N+R L+LLT EkGGTC++LQEECC   N+S
+  ENST00000670242.1_1 1320 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1349
+                           9************************99998 PP
+
+>> ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.5   3.3   1.5e-16   4.7e-12       1      30 []    1415    1444 ..    1415    1444 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 49.5 bits;  conditional E-value: 1.5e-16
+                  eye    1 NrRALeLLTAEkGGTCLaLQEECCtYLNqS 30  
+                           N+R L+LLT EkGGTC++LQEECC   N+S
+  ENST00000608623.1_3 1415 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1444
+                           9************************99998 PP
+
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.6   1.5   8.7e-14   2.7e-09       5      30 .]     318     343 ..     317     343 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 40.6 bits;  conditional E-value: 8.7e-14
+                  eye   5 LeLLTAEkGGTCLaLQEECCtYLNqS 30 
+                          L+LLTAEkG  C++L E+CC YLNqS
+  ENST00000660707.1_3 318 LDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          89***********************9 PP
+
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.5   2.8   6.1e-11   1.9e-06       5      30 .]     490     515 ..     489     515 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 31.5 bits;  conditional E-value: 6.1e-11
+                  eye   5 LeLLTAEkGGTCLaLQEECCtYLNqS 30 
+                          L+LL A kGG C +L EECC Y NqS
+  ENST00000657350.1_1 490 LDLLIAKKGGLCTFLGEECCFYTNQS 515
+                          89***********************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 34.42u 0.41s 00:00:34.83 Elapsed: 00:00:04.73
+# Mc/sec: 841.39
+//
+Query:       kidney  [M=42]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    2.3e-26   95.4   2.8    4.3e-26   94.6   2.8    1.5  1  ENST00000593903.1_1  ncrna chromosome:GRCh38:19:20746923:20755250:-1 gene:ENSG00000268416.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010329.1 description:novel transcript
+    2.3e-26   95.4   2.8    4.3e-26   94.6   2.8    1.5  1  ENST00000623538.1_1  ncrna chromosome:GRCh38:CHR_HSCHR19_1_CTG2:20746923:20755250:-1 gene:ENSG00000280030.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010329.4 description:novel transcript
+    1.2e-24   90.0   3.9    2.3e-24   89.0   3.9    1.5  1  ENST00000587961.1_2  ncrna chromosome:GRCh38:19:28606688:28615229:1 gene:ENSG00000266976.3 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC079466.1 description:novel transcript
+    5.7e-24   87.8   4.8    9.5e-24   87.1   4.8    1.4  1  ENST00000656887.1_3  ncrna chromosome:GRCh38:12:8282677:8286518:-1 gene:ENSG00000286504.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC092745.4 description:novel transcript
+    1.6e-22   83.1   2.4    4.1e-22   81.8   2.4    1.8  1  ENST00000590740.2_3  ncrna chromosome:GRCh38:17:43160290:43170403:-1 gene:ENSG00000267002.4 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC060780.1 description:novel transcript
+    2.5e-22   82.5   2.4      5e-22   81.6   2.4    1.6  1  ENST00000642336.1_2  ncrna chromosome:GRCh38:17:43160086:43171036:-1 gene:ENSG00000267002.4 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC060780.1 description:novel transcript
+    1.2e-21   80.4   3.5    1.9e-21   79.7   3.5    1.3  1  ENST00000660816.1_3  ncrna chromosome:GRCh38:8:12485139:12491970:-1 gene:ENSG00000283674.3 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC068587.4 description:novel transcript
+    9.7e-21   77.4   3.5    1.6e-20   76.8   3.5    1.3  1  ENST00000641813.1_3  ncrna chromosome:GRCh38:8:8059572:8180527:1 gene:ENSG00000284606.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC105233.5 description:novel transcript
+      1e-20   77.4   3.5    1.6e-20   76.7   3.5    1.3  1  ENST00000641338.1_2  ncrna chromosome:GRCh38:8:8065646:8180527:1 gene:ENSG00000284606.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC105233.5 description:novel transcript
+    3.4e-19   72.5   1.4    3.4e-19   72.5   1.4    2.4  2  ENST00000670759.1_1  ncrna chromosome:GRCh38:3:157579694:157587495:-1 gene:ENSG00000286892.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC084212.1 description:novel transcript
+    6.8e-18   68.3   0.6    1.3e-17   67.4   0.6    1.5  1  ENST00000512200.1_3  ncrna chromosome:GRCh38:11:68870664:68874542:1 gene:ENSG00000250508.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC02701 description:long intergenic non-protein coding RNA 2701 [Source:HGNC Symbol;Acc:HGNC:54216]
+    1.7e-17   67.0   0.9    3.1e-17   66.2   0.9    1.4  1  ENST00000599944.1_1  ncrna chromosome:GRCh38:19:23817599:23874701:-1 gene:ENSG00000267924.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC139769.2 description:novel transcript
+    1.7e-14   57.4   1.2    2.7e-14   56.8   1.2    1.3  1  ENST00000417786.1_5  ncrna chromosome:GRCh38:1:246605873:246608102:1 gene:ENSG00000225300.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AL591623.1 description:novel transcript
+    1.2e-13   54.7   2.4    2.7e-13   53.6   2.4    1.6  1  ENST00000647830.1_3  ncrna chromosome:GRCh38:10:84167228:84172093:-1 gene:ENSG00000285972.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:CERNA2 description:competing endogenous lncRNA 2 for microRNA let-7b [Source:HGNC Symbol;Acc:HGNC:51354]
+    1.7e-12   51.0   2.6      3e-12   50.2   2.6    1.4  1  ENST00000430756.2_3  ncrna chromosome:GRCh38:X:115917271:115969089:-1 gene:ENSG00000235244.4 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:DANT2 description:DXZ4 associated non-coding transcript 2, distal [Source:HGNC Symbol;Acc:HGNC:50862]
+    7.6e-12   49.0   1.7    7.6e-12   49.0   1.7    2.1  2  ENST00000617971.1_2  ncrna chromosome:GRCh38:21:42917250:42919343:-1 gene:ENSG00000233056.2 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:ERVH48-1 description:endogenous retrovirus group 48 member 1 [Source:HGNC Symbol;Acc:HGNC:17216]
+    1.1e-11   48.5   1.7    1.1e-11   48.5   1.7    2.0  1  ENST00000447535.1_2  ncrna chromosome:GRCh38:21:42916803:42925646:-1 gene:ENSG00000233056.2 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:ERVH48-1 description:endogenous retrovirus group 48 member 1 [Source:HGNC Symbol;Acc:HGNC:17216]
+    4.5e-09   40.1   0.2      1e-08   38.9   0.2    1.6  1  ENST00000589457.2_2  ncrna chromosome:GRCh38:19:567210:571745:-1 gene:ENSG00000267751.5 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC009005.1 description:novel transcript, antisense to BSG
+    4.7e-09   40.0   0.3    1.1e-08   38.9   0.3    1.6  1  ENST00000588908.5_1  ncrna chromosome:GRCh38:19:567221:571736:-1 gene:ENSG00000267751.5 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC009005.1 description:novel transcript, antisense to BSG
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000593903.1_1  ncrna chromosome:GRCh38:19:20746923:20755250:-1 gene:ENSG00000268416.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010329.1 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.6   2.8   2.4e-30   4.3e-26       1      42 []    2495    2536 ..    2495    2536 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 94.6 bits;  conditional E-value: 2.4e-30
+               kidney    1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEnivRem 42  
+                           nRL+LDYLLAaeGG+CGK+nLtn CLq+DDqG+vvEnivR+m
+  ENST00000593903.1_1 2495 NRLALDYLLAAEGGVCGKFNLTNYCLQIDDQGQVVENIVRDM 2536
+                           9****************************************9 PP
+
+>> ENST00000623538.1_1  ncrna chromosome:GRCh38:CHR_HSCHR19_1_CTG2:20746923:20755250:-1 gene:ENSG00000280030.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010329.4 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.6   2.8   2.4e-30   4.3e-26       1      42 []    2495    2536 ..    2495    2536 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 94.6 bits;  conditional E-value: 2.4e-30
+               kidney    1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEnivRem 42  
+                           nRL+LDYLLAaeGG+CGK+nLtn CLq+DDqG+vvEnivR+m
+  ENST00000623538.1_1 2495 NRLALDYLLAAEGGVCGKFNLTNYCLQIDDQGQVVENIVRDM 2536
+                           9****************************************9 PP
+
+>> ENST00000587961.1_2  ncrna chromosome:GRCh38:19:28606688:28615229:1 gene:ENSG00000266976.3 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC079466.1 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.0   3.9   1.3e-28   2.3e-24       1      38 [.    1201    1238 ..    1201    1240 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 89.0 bits;  conditional E-value: 1.3e-28
+               kidney    1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEni 38  
+                           nRL+LDYLLA eGG+CGK+nLtnCCLq+DDqG+vvEni
+  ENST00000587961.1_2 1201 NRLALDYLLATEGGVCGKFNLTNCCLQIDDQGQVVENI 1238
+                           9************************************9 PP
+
+>> ENST00000656887.1_3  ncrna chromosome:GRCh38:12:8282677:8286518:-1 gene:ENSG00000286504.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC092745.4 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.1   4.8   5.2e-28   9.5e-24       1      42 []     899     940 ..     899     940 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 87.1 bits;  conditional E-value: 5.2e-28
+               kidney   1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEnivRem 42 
+                          nRL+LDYLL aeGG+CGK+nLtnCCLq++DqG+vv n vR+m
+  ENST00000656887.1_3 899 NRLALDYLLVAEGGVCGKFNLTNCCLQINDQGQVVKNTVRDM 940
+                          9****************************************9 PP
+
+>> ENST00000590740.2_3  ncrna chromosome:GRCh38:17:43160290:43170403:-1 gene:ENSG00000267002.4 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC060780.1 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.8   2.4   2.2e-26   4.1e-22       1      42 []    1403    1444 ..    1403    1444 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 81.8 bits;  conditional E-value: 2.2e-26
+               kidney    1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEnivRem 42  
+                           nRL+LDYLLAaeG +C K+nLtnCCL +D+qG+vvE ivR+m
+  ENST00000590740.2_3 1403 NRLALDYLLAAEGEVCRKFNLTNCCLHIDNQGQVVEDIVRDM 1444
+                           9****************************************9 PP
+
+>> ENST00000642336.1_2  ncrna chromosome:GRCh38:17:43160086:43171036:-1 gene:ENSG00000267002.4 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC060780.1 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.6   2.4   2.7e-26     5e-22       1      42 []    1649    1690 ..    1649    1690 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 81.6 bits;  conditional E-value: 2.7e-26
+               kidney    1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEnivRem 42  
+                           nRL+LDYLLAaeG +C K+nLtnCCL +D+qG+vvE ivR+m
+  ENST00000642336.1_2 1649 NRLALDYLLAAEGEVCRKFNLTNCCLHIDNQGQVVEDIVRDM 1690
+                           9****************************************9 PP
+
+>> ENST00000660816.1_3  ncrna chromosome:GRCh38:8:12485139:12491970:-1 gene:ENSG00000283674.3 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC068587.4 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   79.7   3.5     1e-25   1.9e-21       2      42 .]     711     750 ..     710     750 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 79.7 bits;  conditional E-value: 1e-25
+               kidney   2 RLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEnivRem 42 
+                          RL+LDYLL ae G+CGK+nLtnCCLq++DqG+vv nivR+m
+  ENST00000660816.1_3 711 RLALDYLLVAE-GVCGKFNLTNCCLQINDQGQVVKNIVRDM 750
+                          9*********9.5***************************9 PP
+
+>> ENST00000641813.1_3  ncrna chromosome:GRCh38:8:8059572:8180527:1 gene:ENSG00000284606.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC105233.5 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.8   3.5   8.6e-25   1.6e-20       2      42 .]     771     810 ..     770     810 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 76.8 bits;  conditional E-value: 8.6e-25
+               kidney   2 RLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEnivRem 42 
+                          RL+LDYLL ae G+CGK+nLtnCCLq++DqG++v nivR+m
+  ENST00000641813.1_3 771 RLALDYLLVAE-GVCGKFNLTNCCLQINDQGQMVKNIVRDM 810
+                          9*********9.5***************************9 PP
+
+>> ENST00000641338.1_2  ncrna chromosome:GRCh38:8:8065646:8180527:1 gene:ENSG00000284606.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC105233.5 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.7   3.5   8.9e-25   1.6e-20       2      42 .]     805     844 ..     804     844 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 76.7 bits;  conditional E-value: 8.9e-25
+               kidney   2 RLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEnivRem 42 
+                          RL+LDYLL ae G+CGK+nLtnCCLq++DqG++v nivR+m
+  ENST00000641338.1_2 805 RLALDYLLVAE-GVCGKFNLTNCCLQINDQGQMVKNIVRDM 844
+                          9*********9.5***************************9 PP
+
+>> ENST00000670759.1_1  ncrna chromosome:GRCh38:3:157579694:157587495:-1 gene:ENSG00000286892.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC084212.1 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.4      0.78   1.4e+04      19      26 ..     451     458 ..     444     463 .. 0.87
+   2 !   72.5   1.4   1.8e-23   3.4e-19       1      38 [.     704     741 ..     704     742 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 0.1 bits;  conditional E-value: 0.78
+               kidney  19 vnLtnCCL 26 
+                          +n+t CC+
+  ENST00000670759.1_1 451 LNITSCCV 458
+                          7******6 PP
+
+  == domain 2  score: 72.5 bits;  conditional E-value: 1.8e-23
+               kidney   1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEni 38 
+                          nRL+L+YLLAaeGG+C K+nLtnCCL +D qG+vvE i
+  ENST00000670759.1_1 704 NRLALEYLLAAEGGVCRKFNLTNCCLHIDVQGQVVEDI 741
+                          9***********************************98 PP
+
+>> ENST00000512200.1_3  ncrna chromosome:GRCh38:11:68870664:68874542:1 gene:ENSG00000250508.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC02701 description:long intergenic non-protein coding RNA 2701 [Source:HGNC Symbol;Acc:HGNC:54216]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.4   0.6   7.1e-22   1.3e-17       1      39 [.     741     779 ..     741     782 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 67.4 bits;  conditional E-value: 7.1e-22
+               kidney   1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEniv 39 
+                          nRL+LDYLLA eGG+CGK+ LtnCCL +DD G+ +  i 
+  ENST00000512200.1_3 741 NRLALDYLLAQEGGVCGKFSLTNCCLDIDDSGKAIIEIT 779
+                          9*******************************9765554 PP
+
+>> ENST00000599944.1_1  ncrna chromosome:GRCh38:19:23817599:23874701:-1 gene:ENSG00000267924.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC139769.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.2   0.9   1.7e-21   3.1e-17       1      36 [.     454     489 ..     454     494 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 66.2 bits;  conditional E-value: 1.7e-21
+               kidney   1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvE 36 
+                          nRL+LDYLLA eGG+C K+ LtnCCL++DD G+vv 
+  ENST00000599944.1_1 454 NRLALDYLLAQEGGVCRKFSLTNCCLKIDDNGKVVK 489
+                          9*********************************96 PP
+
+>> ENST00000417786.1_5  ncrna chromosome:GRCh38:1:246605873:246608102:1 gene:ENSG00000225300.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AL591623.1 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.8   1.2   1.5e-18   2.7e-14       1      39 [.     444     482 ..     444     485 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 56.8 bits;  conditional E-value: 1.5e-18
+               kidney   1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEniv 39 
+                          nRL+LDYLL  eG +C K+n+ nCCL +DD G+ v  i+
+  ENST00000417786.1_5 444 NRLALDYLLTEEGAVCAKFNMSNCCLNIDDNGKAVLEIA 482
+                          9*******************************9998887 PP
+
+>> ENST00000647830.1_3  ncrna chromosome:GRCh38:10:84167228:84172093:-1 gene:ENSG00000285972.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:CERNA2 description:competing endogenous lncRNA 2 for microRNA let-7b [Source:HGNC Symbol;Acc:HGNC:51354]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   2.4   1.5e-17   2.7e-13       1      41 [.     327     367 ..     327     368 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 1.5e-17
+               kidney   1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDq.GtvvEnivRe 41 
+                          n L+LDYLLAaeG +C K+nLtnCCL ++   G+vv niv++
+  ENST00000647830.1_3 327 NILALDYLLAAEGEVCKKFNLTNCCLHIN-D*GQVVKNIVKD 367
+                          779*************************6.6668******98 PP
+
+>> ENST00000430756.2_3  ncrna chromosome:GRCh38:X:115917271:115969089:-1 gene:ENSG00000235244.4 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:DANT2 description:DXZ4 associated non-coding transcript 2, distal [Source:HGNC Symbol;Acc:HGNC:50862]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.2   2.6   1.6e-16     3e-12       1      24 [.     669     692 ..     669     693 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 50.2 bits;  conditional E-value: 1.6e-16
+               kidney   1 nRLvLDYLLAaeGGlCGKvnLtnC 24 
+                          nRL+LDYLLAaeGG+CGK+nLtnC
+  ENST00000430756.2_3 669 NRLALDYLLAAEGGVCGKFNLTNC 692
+                          9*********************** PP
+
+>> ENST00000617971.1_2  ncrna chromosome:GRCh38:21:42917250:42919343:-1 gene:ENSG00000233056.2 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:ERVH48-1 description:endogenous retrovirus group 48 member 1 [Source:HGNC Symbol;Acc:HGNC:17216]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.8   0.5       6.3   1.2e+05      14      22 ..     205     213 ..     201     216 .. 0.77
+   2 !   49.0   1.7   4.2e-16   7.6e-12       1      39 [.     579     617 ..     579     620 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: -2.8 bits;  conditional E-value: 6.3
+               kidney  14 GlCGKvnLt 22 
+                          G+CG  n  
+  ENST00000617971.1_2 205 GVCGSRNGA 213
+                          9***88755 PP
+
+  == domain 2  score: 49.0 bits;  conditional E-value: 4.2e-16
+               kidney   1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEniv 39 
+                          nRL+LDYLLA eG  CGK+n+ nCCL + + G+ v  i+
+  ENST00000617971.1_2 579 NRLALDYLLAEEGAGCGKFNISNCCLNIGNNGEEVLEIA 617
+                          9*****************************998766665 PP
+
+>> ENST00000447535.1_2  ncrna chromosome:GRCh38:21:42916803:42925646:-1 gene:ENSG00000233056.2 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:ERVH48-1 description:endogenous retrovirus group 48 member 1 [Source:HGNC Symbol;Acc:HGNC:17216]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.5   1.7   5.8e-16   1.1e-11       1      39 [.     662     700 ..     662     703 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 48.5 bits;  conditional E-value: 5.8e-16
+               kidney   1 nRLvLDYLLAaeGGlCGKvnLtnCCLqlDDqGtvvEniv 39 
+                          nRL+LDYLLA eG  CGK+n+ nCCL + + G+ v  i+
+  ENST00000447535.1_2 662 NRLALDYLLAEEGAGCGKFNISNCCLNIGNNGEEVLEIA 700
+                          9*****************************998666665 PP
+
+>> ENST00000589457.2_2  ncrna chromosome:GRCh38:19:567210:571745:-1 gene:ENSG00000267751.5 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC009005.1 description:novel transcript, antisense to BSG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.9   0.2   5.7e-13     1e-08      11      31 ..     216     236 ..     204     239 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 38.9 bits;  conditional E-value: 5.7e-13
+               kidney  11 aeGGlCGKvnLtnCCLqlDDq 31 
+                           eGG+CG +nLtnCCL++DD 
+  ENST00000589457.2_2 216 SEGGICGEFNLTNCCLKIDDN 236
+                          59******************6 PP
+
+>> ENST00000588908.5_1  ncrna chromosome:GRCh38:19:567221:571736:-1 gene:ENSG00000267751.5 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC009005.1 description:novel transcript, antisense to BSG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.9   0.3   5.9e-13   1.1e-08      11      31 ..     188     208 ..     176     209 .] 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 38.9 bits;  conditional E-value: 5.9e-13
+               kidney  11 aeGGlCGKvnLtnCCLqlDDq 31 
+                           eGG+CG +nLtnCCL++DD 
+  ENST00000588908.5_1 188 SEGGICGEFNLTNCCLKIDDN 208
+                          59*****************95 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (42 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              19  [number of targets reported over threshold]
+# CPU time: 49.05u 0.49s 00:00:49.54 Elapsed: 00:00:06.37
+# Mc/sec: 874.68
+//
+Query:       liver  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    1.6e-11   47.8   2.7    2.9e-11   47.0   2.7    1.4  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+    6.1e-11   46.0   2.0    1.1e-10   45.2   2.0    1.3  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    1.4e-07   35.2   3.5    3.3e-07   34.1   3.5    1.7  1  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.6e-07   35.1   1.4      3e-07   34.2   1.4    1.4  1  ENST00000584108.5_2  ncrna chromosome:GRCh38:7:30564144:30573782:-1 gene:ENSG00000196295.12 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:GARS-DT description:GARS divergent transcript [Source:HGNC Symbol;Acc:HGNC:48951]
+    1.7e-07   35.0   3.5    3.1e-07   34.2   3.5    1.5  1  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.1e-07   34.7   3.5      5e-07   33.5   3.5    1.7  1  ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.3e-07   34.5   3.5    5.5e-07   33.3   3.5    1.7  1  ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.5e-07   34.4   3.5    5.2e-07   33.4   3.5    1.6  1  ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.6e-07   34.4   3.5    5.3e-07   33.4   3.5    1.6  1  ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.9e-07   34.2   3.5    5.2e-07   33.4   3.5    1.4  1  ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    5.3e-07   33.4   3.5    8.9e-07   32.7   3.5    1.4  1  ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    5.4e-07   33.4   3.5    9.5e-07   32.6   3.5    1.4  1  ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.0   2.7     1e-15   2.9e-11       4      29 ..     489     514 ..     489     515 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 47.0 bits;  conditional E-value: 1e-15
+                liver   4 GLDLLtAeeGGLCfFlEEECCiYvNQ 29 
+                          GLDLL A +GGLC Fl EECC+Y+NQ
+  ENST00000657350.1_1 489 GLDLLIAKKGGLCTFLGEECCFYTNQ 514
+                          9************************* PP
+
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.2   2.0   3.6e-15   1.1e-10       4      29 ..     317     342 ..     316     343 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 45.2 bits;  conditional E-value: 3.6e-15
+                liver   4 GLDLLtAeeGGLCfFlEEECCiYvNQ 29 
+                          GLDLLtAe+G LC Fl E+CC+Y NQ
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQ 342
+                          9************************* PP
+
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1   3.5   1.1e-11   3.3e-07       1      28 [.     436     463 ..     436     465 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 1.1e-11
+                liver   1 NRRGLDLLtAeeGGLCfFlEEECCiYvN 28 
+                          N R LDLLt e+GG C +l EECC+ vN
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVN 463
+                          7799***********************9 PP
+
+>> ENST00000584108.5_2  ncrna chromosome:GRCh38:7:30564144:30573782:-1 gene:ENSG00000196295.12 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:GARS-DT description:GARS divergent transcript [Source:HGNC Symbol;Acc:HGNC:48951]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.2   1.4     1e-11     3e-07       1      18 [.     128     145 ..     128     146 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 34.2 bits;  conditional E-value: 1e-11
+                liver   1 NRRGLDLLtAeeGGLCfF 18 
+                          NRRGLDLL+AeeGGLC F
+  ENST00000584108.5_2 128 NRRGLDLLNAEEGGLCLF 145
+                          9***************99 PP
+
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.2   3.5   1.1e-11   3.1e-07       1      28 [.     354     381 ..     354     383 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 34.2 bits;  conditional E-value: 1.1e-11
+                liver   1 NRRGLDLLtAeeGGLCfFlEEECCiYvN 28 
+                          N R LDLLt e+GG C +l EECC+ vN
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVN 381
+                          7799***********************9 PP
+
+>> ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.5   3.5   1.7e-11     5e-07       1      28 [.     669     696 ..     669     698 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 33.5 bits;  conditional E-value: 1.7e-11
+                liver   1 NRRGLDLLtAeeGGLCfFlEEECCiYvN 28 
+                          N R LDLLt e+GG C +l EECC+ vN
+  ENST00000609143.6_2 669 NWRVLDLLTTEKGGTCIYLQEECCFCVN 696
+                          7799***********************9 PP
+
+>> ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.3   3.5   1.9e-11   5.5e-07       1      28 [.     765     792 ..     765     794 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 33.3 bits;  conditional E-value: 1.9e-11
+                liver   1 NRRGLDLLtAeeGGLCfFlEEECCiYvN 28 
+                          N R LDLLt e+GG C +l EECC+ vN
+  ENST00000662156.1_3 765 NWRVLDLLTTEKGGTCIYLQEECCFCVN 792
+                          7799***********************9 PP
+
+>> ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.4   3.5   1.8e-11   5.2e-07       1      28 [.     719     746 ..     719     748 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 33.4 bits;  conditional E-value: 1.8e-11
+                liver   1 NRRGLDLLtAeeGGLCfFlEEECCiYvN 28 
+                          N R LDLLt e+GG C +l EECC+ vN
+  ENST00000656972.1_2 719 NWRVLDLLTTEKGGTCIYLQEECCFCVN 746
+                          7799***********************9 PP
+
+>> ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.4   3.5   1.8e-11   5.3e-07       1      28 [.     722     749 ..     722     751 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 33.4 bits;  conditional E-value: 1.8e-11
+                liver   1 NRRGLDLLtAeeGGLCfFlEEECCiYvN 28 
+                          N R LDLLt e+GG C +l EECC+ vN
+  ENST00000609401.6_1 722 NWRVLDLLTTEKGGTCIYLQEECCFCVN 749
+                          7799***********************9 PP
+
+>> ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.4   3.5   1.8e-11   5.2e-07       1      28 [.     706     733 ..     706     735 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 33.4 bits;  conditional E-value: 1.8e-11
+                liver   1 NRRGLDLLtAeeGGLCfFlEEECCiYvN 28 
+                          N R LDLLt e+GG C +l EECC+ vN
+  ENST00000671033.1_3 706 NWRVLDLLTTEKGGTCIYLQEECCFCVN 733
+                          7799***********************9 PP
+
+>> ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.7   3.5   3.1e-11   8.9e-07       1      28 [.    1320    1347 ..    1320    1349 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 32.7 bits;  conditional E-value: 3.1e-11
+                liver    1 NRRGLDLLtAeeGGLCfFlEEECCiYvN 28  
+                           N R LDLLt e+GG C +l EECC+ vN
+  ENST00000670242.1_1 1320 NWRVLDLLTTEKGGTCIYLQEECCFCVN 1347
+                           7799***********************9 PP
+
+>> ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.6   3.5   3.3e-11   9.5e-07       1      28 [.    1415    1442 ..    1415    1444 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 32.6 bits;  conditional E-value: 3.3e-11
+                liver    1 NRRGLDLLtAeeGGLCfFlEEECCiYvN 28  
+                           N R LDLLt e+GG C +l EECC+ vN
+  ENST00000608623.1_3 1415 NWRVLDLLTTEKGGTCIYLQEECCFCVN 1442
+                           7799***********************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 34.55u 0.48s 00:00:35.02 Elapsed: 00:00:04.48
+# Mc/sec: 888.35
+//
+Query:       lung  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+      1e-20   77.3   5.6    3.1e-20   75.8   5.6    1.9  1  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.2e-20   77.1   5.6    2.8e-20   75.9   5.6    1.7  1  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.8e-20   76.5   5.6    4.9e-20   75.2   5.6    1.8  1  ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      2e-20   76.4   5.6    4.9e-20   75.2   5.6    1.7  1  ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.2e-20   76.3   5.6    4.6e-20   75.2   5.6    1.6  1  ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.4e-20   76.2   5.6    5.1e-20   75.1   5.6    1.6  1  ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.4e-20   76.2   5.6    4.8e-20   75.2   5.6    1.6  1  ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    4.2e-20   75.4   5.6    8.3e-20   74.4   5.6    1.5  1  ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    4.4e-20   75.3   5.6    8.8e-20   74.3   5.6    1.5  1  ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    3.1e-11   47.0   2.0    5.6e-11   46.2   2.0    1.4  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    1.6e-08   38.3   3.1    3.4e-08   37.3   3.1    1.6  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.8   5.6   9.7e-25   3.1e-20       1      30 []     436     465 ..     436     465 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 75.8 bits;  conditional E-value: 9.7e-25
+                 lung   1 NrRvLDLLTaEkGGlCIyLeEECCFCvNeS 30 
+                          N+RvLDLLT+EkGG+CIyL+EECCFCvNeS
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 465
+                          9****************************9 PP
+
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.9   5.6   8.9e-25   2.8e-20       1      30 []     354     383 ..     354     383 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 75.9 bits;  conditional E-value: 8.9e-25
+                 lung   1 NrRvLDLLTaEkGGlCIyLeEECCFCvNeS 30 
+                          N+RvLDLLT+EkGG+CIyL+EECCFCvNeS
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 383
+                          9****************************9 PP
+
+>> ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.2   5.6   1.5e-24   4.9e-20       1      30 []     719     748 ..     719     748 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 75.2 bits;  conditional E-value: 1.5e-24
+                 lung   1 NrRvLDLLTaEkGGlCIyLeEECCFCvNeS 30 
+                          N+RvLDLLT+EkGG+CIyL+EECCFCvNeS
+  ENST00000656972.1_2 719 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 748
+                          9****************************9 PP
+
+>> ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.2   5.6   1.6e-24   4.9e-20       1      30 []     722     751 ..     722     751 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 75.2 bits;  conditional E-value: 1.6e-24
+                 lung   1 NrRvLDLLTaEkGGlCIyLeEECCFCvNeS 30 
+                          N+RvLDLLT+EkGG+CIyL+EECCFCvNeS
+  ENST00000609401.6_1 722 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 751
+                          9****************************9 PP
+
+>> ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.2   5.6   1.5e-24   4.6e-20       1      30 []     669     698 ..     669     698 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 75.2 bits;  conditional E-value: 1.5e-24
+                 lung   1 NrRvLDLLTaEkGGlCIyLeEECCFCvNeS 30 
+                          N+RvLDLLT+EkGG+CIyL+EECCFCvNeS
+  ENST00000609143.6_2 669 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 698
+                          9****************************9 PP
+
+>> ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.1   5.6   1.6e-24   5.1e-20       1      30 []     765     794 ..     765     794 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 75.1 bits;  conditional E-value: 1.6e-24
+                 lung   1 NrRvLDLLTaEkGGlCIyLeEECCFCvNeS 30 
+                          N+RvLDLLT+EkGG+CIyL+EECCFCvNeS
+  ENST00000662156.1_3 765 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 794
+                          9****************************9 PP
+
+>> ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.2   5.6   1.5e-24   4.8e-20       1      30 []     706     735 ..     706     735 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 75.2 bits;  conditional E-value: 1.5e-24
+                 lung   1 NrRvLDLLTaEkGGlCIyLeEECCFCvNeS 30 
+                          N+RvLDLLT+EkGG+CIyL+EECCFCvNeS
+  ENST00000671033.1_3 706 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 735
+                          9****************************9 PP
+
+>> ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.4   5.6   2.6e-24   8.3e-20       1      30 []    1320    1349 ..    1320    1349 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 74.4 bits;  conditional E-value: 2.6e-24
+                 lung    1 NrRvLDLLTaEkGGlCIyLeEECCFCvNeS 30  
+                           N+RvLDLLT+EkGG+CIyL+EECCFCvNeS
+  ENST00000670242.1_1 1320 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1349
+                           9****************************9 PP
+
+>> ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.3   5.6   2.8e-24   8.8e-20       1      30 []    1415    1444 ..    1415    1444 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 74.3 bits;  conditional E-value: 2.8e-24
+                 lung    1 NrRvLDLLTaEkGGlCIyLeEECCFCvNeS 30  
+                           N+RvLDLLT+EkGG+CIyL+EECCFCvNeS
+  ENST00000608623.1_3 1415 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1444
+                           9****************************9 PP
+
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.2   2.0   1.8e-15   5.6e-11       4      30 .]     317     343 ..     316     343 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 46.2 bits;  conditional E-value: 1.8e-15
+                 lung   4 vLDLLTaEkGGlCIyLeEECCFCvNeS 30 
+                          +LDLLTaEkG lCI+L+E+CCF +N+S
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          8*************************9 PP
+
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   3.1   1.1e-12   3.4e-08       4      30 .]     489     515 ..     489     515 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 1.1e-12
+                 lung   4 vLDLLTaEkGGlCIyLeEECCFCvNeS 30 
+                          +LDLL a kGGlC +L EECCF  N+S
+  ENST00000657350.1_1 489 GLDLLIAKKGGLCTFLGEECCFYTNQS 515
+                          8************************99 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 35.92u 0.45s 00:00:36.37 Elapsed: 00:00:04.65
+# Mc/sec: 855.87
+//
+Query:       prostate  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    1.2e-09   42.1   1.6    2.1e-09   41.3   1.6    1.4  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    4.4e-06   30.7   2.2    1.2e-05   29.3   2.2    1.8  1  ENST00000604411.1_5  ncrna chromosome:GRCh38:X:73792205:73829231:1 gene:ENSG00000270641.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:TSIX description:TSIX transcript, XIST antisense RNA [Source:HGNC Symbol;Acc:HGNC:12377]
+    6.4e-06   30.2   3.8    1.4e-05   29.1   3.8    1.6  1  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    7.1e-06   30.1   3.8    1.5e-05   29.0   3.8    1.6  1  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.3   1.6   2.5e-14   2.1e-09       4      30 .]     317     343 ..     316     343 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 41.3 bits;  conditional E-value: 2.5e-14
+             prostate   4 GLELLTVeKRgLCIFLNEECCATlNQS 30 
+                          GL+LLT eK  LCIFLNE+CC  lNQS
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          9*************************9 PP
+
+>> ENST00000604411.1_5  ncrna chromosome:GRCh38:X:73792205:73829231:1 gene:ENSG00000270641.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:TSIX description:TSIX transcript, XIST antisense RNA [Source:HGNC Symbol;Acc:HGNC:12377]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.3   2.2   1.4e-10   1.2e-05       4      30 .]    8958    8983 ..    8958    8983 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 29.3 bits;  conditional E-value: 1.4e-10
+             prostate    4 GLELLTVeKRgLCIFLNEECCATlNQS 30  
+                           GL+LL   KRgLC+FLNE CC  lNQS
+  ENST00000604411.1_5 8958 GLDLL-LKKRGLCVFLNEKCCFYLNQS 8983
+                           77877.69******************9 PP
+
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.1   3.8   1.6e-10   1.4e-05       1      30 []     354     383 ..     354     383 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 29.1 bits;  conditional E-value: 1.6e-10
+             prostate   1 NHRGLELLTVeKRgLCIFLNEECCATlNQS 30 
+                          N R L+LLT eK g CI+L EECC   N S
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 383
+                          8899********************999987 PP
+
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.0   3.8   1.7e-10   1.5e-05       1      30 []     436     465 ..     436     465 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 29.0 bits;  conditional E-value: 1.7e-10
+             prostate   1 NHRGLELLTVeKRgLCIFLNEECCATlNQS 30 
+                          N R L+LLT eK g CI+L EECC   N S
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 465
+                          8899********************999987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 35.61u 0.39s 00:00:36.00 Elapsed: 00:00:04.83
+# Mc/sec: 823.97
+//
+Query:       skin  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    3.9e-11   47.0   1.0    7.3e-11   46.1   1.0    1.4  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    4.2e-08   37.3   1.6    4.2e-08   37.3   1.6    1.7  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+    6.1e-08   36.7   2.9    1.3e-07   35.7   2.9    1.6  1  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    6.1e-08   36.7   2.9    1.2e-07   35.8   2.9    1.5  1  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      1e-07   36.0   2.9    1.9e-07   35.2   2.9    1.5  1  ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      1e-07   36.0   2.9      2e-07   35.1   2.9    1.5  1  ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.1e-07   36.0   2.9      2e-07   35.1   2.9    1.5  1  ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.1e-07   35.9   2.9      2e-07   35.1   2.9    1.4  1  ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.1e-07   35.9   2.9    2.1e-07   35.0   2.9    1.5  1  ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      2e-07   35.1   2.9    3.4e-07   34.3   2.9    1.4  1  ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.1e-07   35.0   2.9    3.6e-07   34.3   2.9    1.4  1  ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.1   1.0   2.3e-15   7.3e-11       4      30 .]     317     343 ..     316     343 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 46.1 bits;  conditional E-value: 2.3e-15
+                 skin   4 GlDLLTAETGvLClFldEECCgDvNQS 30 
+                          GlDLLTAE G LC+Fl+E+CC+  NQS
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          9*************************9 PP
+
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.3   1.6   1.3e-12   4.2e-08       4      30 .]     489     515 ..     489     515 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 37.3 bits;  conditional E-value: 1.3e-12
+                 skin   4 GlDLLTAETGvLClFldEECCgDvNQS 30 
+                          GlDLL A  G+LC Fl EECC+  NQS
+  ENST00000657350.1_1 489 GLDLLIAKKGGLCTFLGEECCFYTNQS 515
+                          9*************************9 PP
+
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.7   2.9     4e-12   1.3e-07       1      30 []     436     465 ..     436     465 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 35.7 bits;  conditional E-value: 4e-12
+                 skin   1 NRrGlDLLTAETGvLClFldEECCgDvNQS 30 
+                          N r lDLLT E G+ C++l EECC+ vN S
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 465
+                          56779***********************87 PP
+
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.8   2.9   3.7e-12   1.2e-07       1      30 []     354     383 ..     354     383 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 35.8 bits;  conditional E-value: 3.7e-12
+                 skin   1 NRrGlDLLTAETGvLClFldEECCgDvNQS 30 
+                          N r lDLLT E G+ C++l EECC+ vN S
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 383
+                          56779***********************87 PP
+
+>> ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   2.9     6e-12   1.9e-07       1      30 []     669     698 ..     669     698 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 6e-12
+                 skin   1 NRrGlDLLTAETGvLClFldEECCgDvNQS 30 
+                          N r lDLLT E G+ C++l EECC+ vN S
+  ENST00000609143.6_2 669 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 698
+                          56779***********************87 PP
+
+>> ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   2.9   6.3e-12     2e-07       1      30 []     719     748 ..     719     748 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 6.3e-12
+                 skin   1 NRrGlDLLTAETGvLClFldEECCgDvNQS 30 
+                          N r lDLLT E G+ C++l EECC+ vN S
+  ENST00000656972.1_2 719 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 748
+                          56779***********************87 PP
+
+>> ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   2.9   6.4e-12     2e-07       1      30 []     722     751 ..     722     751 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 6.4e-12
+                 skin   1 NRrGlDLLTAETGvLClFldEECCgDvNQS 30 
+                          N r lDLLT E G+ C++l EECC+ vN S
+  ENST00000609401.6_1 722 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 751
+                          56779***********************87 PP
+
+>> ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.1   2.9   6.2e-12     2e-07       1      30 []     706     735 ..     706     735 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 35.1 bits;  conditional E-value: 6.2e-12
+                 skin   1 NRrGlDLLTAETGvLClFldEECCgDvNQS 30 
+                          N r lDLLT E G+ C++l EECC+ vN S
+  ENST00000671033.1_3 706 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 735
+                          56779***********************87 PP
+
+>> ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.0   2.9   6.6e-12   2.1e-07       1      30 []     765     794 ..     765     794 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 35.0 bits;  conditional E-value: 6.6e-12
+                 skin   1 NRrGlDLLTAETGvLClFldEECCgDvNQS 30 
+                          N r lDLLT E G+ C++l EECC+ vN S
+  ENST00000662156.1_3 765 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 794
+                          56779***********************87 PP
+
+>> ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   2.9   1.1e-11   3.4e-07       1      30 []    1320    1349 ..    1320    1349 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 1.1e-11
+                 skin    1 NRrGlDLLTAETGvLClFldEECCgDvNQS 30  
+                           N r lDLLT E G+ C++l EECC+ vN S
+  ENST00000670242.1_1 1320 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1349
+                           56779***********************87 PP
+
+>> ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   2.9   1.1e-11   3.6e-07       1      30 []    1415    1444 ..    1415    1444 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 1.1e-11
+                 skin    1 NRrGlDLLTAETGvLClFldEECCgDvNQS 30  
+                           N r lDLLT E G+ C++l EECC+ vN S
+  ENST00000608623.1_3 1415 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1444
+                           56779***********************87 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 35.40u 0.52s 00:00:35.92 Elapsed: 00:00:04.69
+# Mc/sec: 848.57
+//
+Query:       testis  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    1.1e-10   45.2   1.9    2.1e-10   44.3   1.9    1.4  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    6.2e-09   39.6   2.8    1.2e-08   38.7   2.8    1.5  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+    3.7e-08   37.1   2.2    7.3e-08   36.2   2.2    1.5  1  ENST00000584108.5_2  ncrna chromosome:GRCh38:7:30564144:30573782:-1 gene:ENSG00000196295.12 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:GARS-DT description:GARS divergent transcript [Source:HGNC Symbol;Acc:HGNC:48951]
+    1.2e-07   35.5   1.1    3.2e-07   34.1   1.1    1.8  1  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.3e-07   35.3   1.1    2.9e-07   34.3   1.1    1.6  1  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      2e-07   34.8   1.1      5e-07   33.5   1.1    1.8  1  ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      2e-07   34.8   1.1      5e-07   33.5   1.1    1.7  1  ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+      2e-07   34.8   1.1    4.7e-07   33.6   1.1    1.7  1  ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.3e-07   34.6   1.1    5.3e-07   33.4   1.1    1.7  1  ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.4e-07   34.5   1.1    4.9e-07   33.5   1.1    1.6  1  ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    3.7e-07   33.9   1.1    8.5e-07   32.8   1.1    1.7  1  ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    3.9e-07   33.9   1.1    9.1e-07   32.7   1.1    1.7  1  ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.3   1.9   7.1e-15   2.1e-10       4      30 .]     317     343 ..     316     343 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 44.3 bits;  conditional E-value: 7.1e-15
+               testis   4 GLDLLaAEeGGLClFLEEYCCFdPNks 30 
+                          GLDLL+AE+G LC+FL E CCF+ N+s
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          9************************97 PP
+
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.7   2.8   4.2e-13   1.2e-08       4      30 .]     489     515 ..     489     515 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 38.7 bits;  conditional E-value: 4.2e-13
+               testis   4 GLDLLaAEeGGLClFLEEYCCFdPNks 30 
+                          GLDLL A +GGLC FL E CCF+ N+s
+  ENST00000657350.1_1 489 GLDLLIAKKGGLCTFLGEECCFYTNQS 515
+                          9************************97 PP
+
+>> ENST00000584108.5_2  ncrna chromosome:GRCh38:7:30564144:30573782:-1 gene:ENSG00000196295.12 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:GARS-DT description:GARS divergent transcript [Source:HGNC Symbol;Acc:HGNC:48951]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2   2.2   2.5e-12   7.3e-08       1      18 [.     128     145 ..     128     147 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 36.2 bits;  conditional E-value: 2.5e-12
+               testis   1 NRRGLDLLaAEeGGLClF 18 
+                          NRRGLDLL+AEeGGLClF
+  ENST00000584108.5_2 128 NRRGLDLLNAEEGGLCLF 145
+                          9****************9 PP
+
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.1   1.1   1.1e-11   3.2e-07       1      30 []     436     465 ..     436     465 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 34.1 bits;  conditional E-value: 1.1e-11
+               testis   1 NRRGLDLLaAEeGGLClFLEEYCCFdPNks 30 
+                          N R LDLL+ E+GG C++L E CCF  N+s
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 465
+                          7799*********************98875 PP
+
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   1.1     1e-11   2.9e-07       1      30 []     354     383 ..     354     383 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 34.3 bits;  conditional E-value: 1e-11
+               testis   1 NRRGLDLLaAEeGGLClFLEEYCCFdPNks 30 
+                          N R LDLL+ E+GG C++L E CCF  N+s
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 383
+                          7799*********************98875 PP
+
+>> ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.5   1.1   1.7e-11     5e-07       1      30 []     719     748 ..     719     748 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 33.5 bits;  conditional E-value: 1.7e-11
+               testis   1 NRRGLDLLaAEeGGLClFLEEYCCFdPNks 30 
+                          N R LDLL+ E+GG C++L E CCF  N+s
+  ENST00000656972.1_2 719 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 748
+                          7799*********************88875 PP
+
+>> ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.5   1.1   1.7e-11     5e-07       1      30 []     722     751 ..     722     751 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 33.5 bits;  conditional E-value: 1.7e-11
+               testis   1 NRRGLDLLaAEeGGLClFLEEYCCFdPNks 30 
+                          N R LDLL+ E+GG C++L E CCF  N+s
+  ENST00000609401.6_1 722 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 751
+                          7799*********************88875 PP
+
+>> ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.6   1.1   1.6e-11   4.7e-07       1      30 []     669     698 ..     669     698 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 33.6 bits;  conditional E-value: 1.6e-11
+               testis   1 NRRGLDLLaAEeGGLClFLEEYCCFdPNks 30 
+                          N R LDLL+ E+GG C++L E CCF  N+s
+  ENST00000609143.6_2 669 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 698
+                          7799*********************88875 PP
+
+>> ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.4   1.1   1.8e-11   5.3e-07       1      30 []     765     794 ..     765     794 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 33.4 bits;  conditional E-value: 1.8e-11
+               testis   1 NRRGLDLLaAEeGGLClFLEEYCCFdPNks 30 
+                          N R LDLL+ E+GG C++L E CCF  N+s
+  ENST00000662156.1_3 765 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 794
+                          7799*********************88875 PP
+
+>> ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.5   1.1   1.7e-11   4.9e-07       1      30 []     706     735 ..     706     735 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 33.5 bits;  conditional E-value: 1.7e-11
+               testis   1 NRRGLDLLaAEeGGLClFLEEYCCFdPNks 30 
+                          N R LDLL+ E+GG C++L E CCF  N+s
+  ENST00000671033.1_3 706 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 735
+                          7799*********************88875 PP
+
+>> ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.8   1.1   2.9e-11   8.5e-07       1      30 []    1320    1349 ..    1320    1349 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 32.8 bits;  conditional E-value: 2.9e-11
+               testis    1 NRRGLDLLaAEeGGLClFLEEYCCFdPNks 30  
+                           N R LDLL+ E+GG C++L E CCF  N+s
+  ENST00000670242.1_1 1320 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1349
+                           7799*********************88875 PP
+
+>> ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.7   1.1   3.1e-11   9.1e-07       1      30 []    1415    1444 ..    1415    1444 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 32.7 bits;  conditional E-value: 3.1e-11
+               testis    1 NRRGLDLLaAEeGGLClFLEEYCCFdPNks 30  
+                           N R LDLL+ E+GG C++L E CCF  N+s
+  ENST00000608623.1_3 1415 NWRVLDLLTTEKGGTCIYLQEECCFCVNES 1444
+                           7799*********************88875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 34.65u 0.55s 00:00:35.19 Elapsed: 00:00:04.92
+# Mc/sec: 808.90
+//
+Query:       thalamus  [M=30]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    1.8e-11   47.9   2.1    3.3e-11   47.1   2.1    1.4  1  ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+    3.3e-10   43.9   2.6    6.6e-10   43.0   2.6    1.5  1  ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+    7.5e-10   42.8   1.6    1.7e-09   41.7   1.6    1.7  1  ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    7.7e-10   42.7   1.6    1.8e-09   41.5   1.6    1.7  1  ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.4e-09   42.0   1.6    2.7e-09   41.0   1.6    1.6  1  ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.4e-09   42.0   1.6    2.9e-09   40.9   1.6    1.6  1  ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.4e-09   41.9   1.6    2.9e-09   40.9   1.6    1.6  1  ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.5e-09   41.9   1.6      3e-09   40.8   1.6    1.6  1  ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    1.5e-09   41.8   1.6    2.9e-09   40.9   1.6    1.5  1  ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.6e-09   41.0   1.6    4.9e-09   40.2   1.6    1.5  1  ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    2.8e-09   41.0   1.6    5.3e-09   40.1   1.6    1.5  1  ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+    6.1e-06   30.3   1.3    1.4e-05   29.2   1.3    1.6  1  ENST00000584108.5_2  ncrna chromosome:GRCh38:7:30564144:30573782:-1 gene:ENSG00000196295.12 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:GARS-DT description:GARS divergent transcript [Source:HGNC Symbol;Acc:HGNC:48951]
+
+
+Domain annotation for each sequence (and alignments):
+>> ENST00000660707.1_3  ncrna chromosome:GRCh38:18:74293217:74298662:1 gene:ENSG00000286529.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC090398.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   47.1   2.1   1.2e-15   3.3e-11       4      30 .]     317     343 ..     316     343 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 47.1 bits;  conditional E-value: 1.2e-15
+             thalamus   4 GLdLLTAErGGLCIFLeEECCFDHNQs 30 
+                          GLdLLTAE+G LCIFL+E+CCF  NQs
+  ENST00000660707.1_3 317 GLDLLTAEKGRLCIFLNEDCCFYLNQS 343
+                          9*************************8 PP
+
+>> ENST00000657350.1_1  ncrna chromosome:GRCh38:5:139503242:139511374:1 gene:ENSG00000286403.1 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:AC010378.2 description:novel transcript
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.0   2.6   2.3e-14   6.6e-10       4      30 .]     489     515 ..     489     515 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 43.0 bits;  conditional E-value: 2.3e-14
+             thalamus   4 GLdLLTAErGGLCIFLeEECCFDHNQs 30 
+                          GLdLL A +GGLC FL+EECCF  NQs
+  ENST00000657350.1_1 489 GLDLLIAKKGGLCTFLGEECCFYTNQS 515
+                          9*************************8 PP
+
+>> ENST00000665925.1_2  ncrna chromosome:GRCh38:X:63426582:63560948:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   1.6   5.8e-14   1.7e-09       1      29 [.     354     382 ..     354     383 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 41.7 bits;  conditional E-value: 5.8e-14
+             thalamus   1 NRRGLdLLTAErGGLCIFLeEECCFDHNQ 29 
+                          N R LdLLT E+GG CI+L+EECCF  N 
+  ENST00000665925.1_2 354 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 382
+                          7799*********************7775 PP
+
+>> ENST00000654240.1_2  ncrna chromosome:GRCh38:X:63426697:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.5   1.6   6.3e-14   1.8e-09       1      29 [.     436     464 ..     436     465 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 41.5 bits;  conditional E-value: 6.3e-14
+             thalamus   1 NRRGLdLLTAErGGLCIFLeEECCFDHNQ 29 
+                          N R LdLLT E+GG CI+L+EECCF  N 
+  ENST00000654240.1_2 436 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 464
+                          7799*********************7775 PP
+
+>> ENST00000609143.6_2  ncrna chromosome:GRCh38:X:63426560:63561095:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.0   1.6   9.5e-14   2.7e-09       1      29 [.     669     697 ..     669     698 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 41.0 bits;  conditional E-value: 9.5e-14
+             thalamus   1 NRRGLdLLTAErGGLCIFLeEECCFDHNQ 29 
+                          N R LdLLT E+GG CI+L+EECCF  N 
+  ENST00000609143.6_2 669 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 697
+                          7799*********************7775 PP
+
+>> ENST00000656972.1_2  ncrna chromosome:GRCh38:X:63426572:63561054:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.9   1.6     1e-13   2.9e-09       1      29 [.     719     747 ..     719     748 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 40.9 bits;  conditional E-value: 1e-13
+             thalamus   1 NRRGLdLLTAErGGLCIFLeEECCFDHNQ 29 
+                          N R LdLLT E+GG CI+L+EECCF  N 
+  ENST00000656972.1_2 719 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 747
+                          7799*********************7775 PP
+
+>> ENST00000609401.6_1  ncrna chromosome:GRCh38:X:63426559:63561080:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.9   1.6     1e-13   2.9e-09       1      29 [.     722     750 ..     722     751 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 40.9 bits;  conditional E-value: 1e-13
+             thalamus   1 NRRGLdLLTAErGGLCIFLeEECCFDHNQ 29 
+                          N R LdLLT E+GG CI+L+EECCF  N 
+  ENST00000609401.6_1 722 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 750
+                          7799*********************7775 PP
+
+>> ENST00000662156.1_3  ncrna chromosome:GRCh38:X:63426575:63561075:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.8   1.6   1.1e-13     3e-09       1      29 [.     765     793 ..     765     794 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 40.8 bits;  conditional E-value: 1.1e-13
+             thalamus   1 NRRGLdLLTAErGGLCIFLeEECCFDHNQ 29 
+                          N R LdLLT E+GG CI+L+EECCF  N 
+  ENST00000662156.1_3 765 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 793
+                          7799*********************7775 PP
+
+>> ENST00000671033.1_3  ncrna chromosome:GRCh38:X:63426567:63561071:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.9   1.6   9.9e-14   2.9e-09       1      29 [.     706     734 ..     706     735 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 40.9 bits;  conditional E-value: 9.9e-14
+             thalamus   1 NRRGLdLLTAErGGLCIFLeEECCFDHNQ 29 
+                          N R LdLLT E+GG CI+L+EECCF  N 
+  ENST00000671033.1_3 706 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 734
+                          7799*********************7775 PP
+
+>> ENST00000670242.1_1  ncrna chromosome:GRCh38:X:63426582:63561063:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.2   1.6   1.7e-13   4.9e-09       1      29 [.    1320    1348 ..    1320    1349 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 40.2 bits;  conditional E-value: 1.7e-13
+             thalamus    1 NRRGLdLLTAErGGLCIFLeEECCFDHNQ 29  
+                           N R LdLLT E+GG CI+L+EECCF  N 
+  ENST00000670242.1_1 1320 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 1348
+                           7799*********************7775 PP
+
+>> ENST00000608623.1_3  ncrna chromosome:GRCh38:X:63426560:63431612:-1 gene:ENSG00000235437.8 gene_biotype:lncRNA transcript_biotype:retained_intron gene_symbol:LINC01278 description:long intergenic non-protein coding RNA 1278 [Source:HGNC Symbol;Acc:HGNC:28090]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.1   1.6   1.8e-13   5.3e-09       1      29 [.    1415    1443 ..    1415    1444 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 40.1 bits;  conditional E-value: 1.8e-13
+             thalamus    1 NRRGLdLLTAErGGLCIFLeEECCFDHNQ 29  
+                           N R LdLLT E+GG CI+L+EECCF  N 
+  ENST00000608623.1_3 1415 NWRVLDLLTTEKGGTCIYLQEECCFCVNE 1443
+                           7799*********************7775 PP
+
+>> ENST00000584108.5_2  ncrna chromosome:GRCh38:7:30564144:30573782:-1 gene:ENSG00000196295.12 gene_biotype:lncRNA transcript_biotype:lncRNA gene_symbol:GARS-DT description:GARS divergent transcript [Source:HGNC Symbol;Acc:HGNC:48951]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.2   1.3   4.7e-10   1.4e-05       1      18 [.     128     145 ..     128     147 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 29.2 bits;  conditional E-value: 4.7e-10
+             thalamus   1 NRRGLdLLTAErGGLCIF 18 
+                          NRRGLdLL AE GGLC+F
+  ENST00000584108.5_2 128 NRRGLDLLNAEEGGLCLF 145
+                          9****************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (30 nodes)
+Target sequences:                       347652  (132659804 residues searched)
+Passed MSV filter:                    347652  (1); expected 347652.0 (1)
+Passed bias filter:                   347652  (1); expected 347652.0 (1)
+Passed Vit filter:                    347652  (1); expected 347652.0 (1)
+Passed Fwd filter:                    347652  (1); expected 347652.0 (1)
+Initial search space (Z):             347652  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 35.43u 0.37s 00:00:35.79 Elapsed: 00:00:04.59
+# Mc/sec: 865.17
+//
+[ok]

@@ -1,0 +1,421 @@
+Command line: [exonerate -q peptides.fasta -t Homo_sapiens.GRCh38.cdna.all.fa --verbose 1 --percent 95 --cores 8 --ryo %qt\n]
+Hostname: [DESKTOP-A]
+
+C4 Alignment:
+------------
+         Query: Skin-2193 
+        Target: ENST00000296121.6 cdna chromosome:GRCh38:3:44748744:44761619:-1 gene:ENSG00000163807.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 153
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyValLeuCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||! !||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2193 0 30 . ENST00000296121.6 2353 2263 - 153 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2181 
+        Target: ENST00000296121.6 cdna chromosome:GRCh38:3:44748744:44761619:-1 gene:ENSG00000163807.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 160
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysLeuPheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||:!!|||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2181 0 30 . ENST00000296121.6 2353 2263 - 160 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2180 
+        Target: ENST00000296121.6 cdna chromosome:GRCh38:3:44748744:44761619:-1 gene:ENSG00000163807.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 156
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysLeuPheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||:!!|||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspAlaAsnGlnSer :   30
+        ||||||||||||||||!.!|||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2180 0 30 . ENST00000296121.6 2353 2263 - 156 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2171 
+        Target: ENST00000296121.6 cdna chromosome:GRCh38:3:44748744:44761619:-1 gene:ENSG00000163807.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 153
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysGlyAspValAsnGlnSer :   30
+        ||||||||||  !|||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2171 0 30 . ENST00000296121.6 2353 2263 - 153 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2169 
+        Target: ENST00000296121.6 cdna chromosome:GRCh38:3:44748744:44761619:-1 gene:ENSG00000163807.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2169 0 30 . ENST00000296121.6 2353 2263 - 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2168 
+        Target: ENST00000296121.6 cdna chromosome:GRCh38:3:44748744:44761619:-1 gene:ENSG00000163807.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspAlaAsnGlnSer :   30
+        ||||||||||||||||!.!|||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2168 0 30 . ENST00000296121.6 2353 2263 - 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2313 
+        Target: ENST00000296121.6 cdna chromosome:GRCh38:3:44748744:44761619:-1 gene:ENSG00000163807.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 157
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgHisGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||...|||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2313 0 30 . ENST00000296121.6 2353 2263 - 157 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2277 
+        Target: ENST00000296121.6 cdna chromosome:GRCh38:3:44748744:44761619:-1 gene:ENSG00000163807.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 156
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyPheAspLeuLeuThrAlaGluThrGlyGlyLeuCysLeuPheLeuGluGl :   21
+        ||||||||||||.!.|||||||||||||||||||||||||||||||||:!!|||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2277 0 30 . ENST00000296121.6 2353 2263 - 156 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2265 
+        Target: ENST00000296121.6 cdna chromosome:GRCh38:3:44748744:44761619:-1 gene:ENSG00000163807.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyPheAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||||||||.!.|||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2265 0 30 . ENST00000296121.6 2353 2263 - 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2193 
+        Target: ENST00000627745.2 cdna chromosome:GRCh38:CHR_HG2066_PATCH:44748740:44761615:-1 gene:ENSG00000281665.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 153
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyValLeuCysIlePheLeuGluGl :   21
+        |||||||||||||||||||||||||||||||||||||||! !||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2193 0 30 . ENST00000627745.2 2353 2263 - 153 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2181 
+        Target: ENST00000627745.2 cdna chromosome:GRCh38:CHR_HG2066_PATCH:44748740:44761615:-1 gene:ENSG00000281665.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 160
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysLeuPheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||:!!|||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2181 0 30 . ENST00000627745.2 2353 2263 - 160 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2180 
+        Target: ENST00000627745.2 cdna chromosome:GRCh38:CHR_HG2066_PATCH:44748740:44761615:-1 gene:ENSG00000281665.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 156
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysLeuPheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||:!!|||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspAlaAsnGlnSer :   30
+        ||||||||||||||||!.!|||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2180 0 30 . ENST00000627745.2 2353 2263 - 156 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2171 
+        Target: ENST00000627745.2 cdna chromosome:GRCh38:CHR_HG2066_PATCH:44748740:44761615:-1 gene:ENSG00000281665.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 153
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysGlyAspValAsnGlnSer :   30
+        ||||||||||  !|||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2171 0 30 . ENST00000627745.2 2353 2263 - 153 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2169 
+        Target: ENST00000627745.2 cdna chromosome:GRCh38:CHR_HG2066_PATCH:44748740:44761615:-1 gene:ENSG00000281665.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 162
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2169 0 30 . ENST00000627745.2 2353 2263 - 162 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2168 
+        Target: ENST00000627745.2 cdna chromosome:GRCh38:CHR_HG2066_PATCH:44748740:44761615:-1 gene:ENSG00000281665.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspAlaAsnGlnSer :   30
+        ||||||||||||||||!.!|||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2168 0 30 . ENST00000627745.2 2353 2263 - 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2313 
+        Target: ENST00000627745.2 cdna chromosome:GRCh38:CHR_HG2066_PATCH:44748740:44761615:-1 gene:ENSG00000281665.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 157
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgHisGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||...|||||||||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2313 0 30 . ENST00000627745.2 2353 2263 - 157 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2277 
+        Target: ENST00000627745.2 cdna chromosome:GRCh38:CHR_HG2066_PATCH:44748740:44761615:-1 gene:ENSG00000281665.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 156
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyPheAspLeuLeuThrAlaGluThrGlyGlyLeuCysLeuPheLeuGluGl :   21
+        ||||||||||||.!.|||||||||||||||||||||||||||||||||:!!|||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2277 0 30 . ENST00000627745.2 2353 2263 - 156 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Skin-2265 
+        Target: ENST00000627745.2 cdna chromosome:GRCh38:CHR_HG2066_PATCH:44748740:44761615:-1 gene:ENSG00000281665.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:KIAA1143 description:KIAA1143 [Source:HGNC Symbol;Acc:HGNC:29198]:[revcomp]
+         Model: ungapped:protein2dna
+     Raw score: 158
+   Query range: 0 -> 30
+  Target range: 2353 -> 2263
+
+    1 : AsnArgArgGlyPheAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl :   21
+        ||||||||||||.!.|||||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgGlyLeuAspLeuLeuThrAlaGluThrGlyGlyLeuCysIlePheLeuGluGl
+ 2353 : AATCGAAGGGGACTAGATCTCCTAACTGCTGAAACAGGTGGCTTATGTATTTTCCTAGAAGA : 2293
+
+   22 : uGluCysCysPheAspValAsnGlnSer :   30
+        ||||||||||||||||||||||||||||
+        uGluCysCysPheAspValAsnGlnSer
+ 2292 : AGAATGCTGTTTTGATGTCAACCAATCA : 2264
+
+vulgar: Skin-2265 0 30 . ENST00000627745.2 2353 2263 - 158 M 30 90
+Protein
+
+C4 Alignment:
+------------
+         Query: Eye-2067 
+        Target: ENST00000427545.1 cdna chromosome:GRCh38:7:64835280:64836882:-1 gene:ENSG00000234338.1 gene_biotype:processed_pseudogene transcript_biotype:processed_pseudogene gene_symbol:AC073349.2 description:endogenous retroviral family W, env(C7), member 2 (ERVWE2) pseudogene
+         Model: ungapped:protein2dna
+     Raw score: 154
+   Query range: 0 -> 30
+  Target range: 1191 -> 1281
+
+    1 : AsnArgArgAlaLeuGluLeuLeuThrAlaGluLysGlyGlyThrCysLeuPheLeuGlnGl :   21
+        |||||||||||||||!!:||||||||||||||||||||||||||||||||||||||||||||
+        AsnArgArgAlaLeuAspLeuLeuThrAlaGluLysGlyGlyThrCysLeuPheLeuGlnGl
+ 1192 : AACAGGCGGGCCTTAGACTTGCTTACAGCAGAAAAAGGAGGGACATGTTTATTCTTACAGGA : 1252
+
+   22 : uGluCysCysTyrTyrLeuAsnThrSer :   30
+        ||||||||||||||||||||||..!|||
+        uGluCysCysTyrTyrLeuAsnValSer
+ 1253 : AGAATGCTGCTATTATCTCAACGTGTCA : 1281
+
+vulgar: Eye-2067 0 30 . ENST00000427545.1 1191 1281 + 154 M 30 90
+Protein
+-- completed exonerate analysis
