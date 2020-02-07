@@ -1,5 +1,8 @@
 ## Identification of tissue-specific immunosuppressive domains in the human genome
 
+### Aim
+To identify tissue-specific homologs of the viral immunosuppressive domains in the human genome
+
 ### Project objectives
 
 1. Scan a latest version of human proteome with the ISDTool 2.0 utility
