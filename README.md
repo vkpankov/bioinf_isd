@@ -10,7 +10,7 @@
 ### Methods and results
 1. Peptide sequences were aligned to six-frame genome translation database in two ways: using local alignment with heuristics and using HMM model. The transeq utility was used to translate the genome. The Exonerate tool was used for local alignment of peptide sequences. The HMMER tool was used to build HMM models (separatly by tissue types) and align them to transcriptome. 
 2. 100% matches were found for two sequences
-3. Tissue specificity not detected. ARCHS4 database was used for differential expression analysis.
+3. Tissue specificity not detected. The ARCHS4 database was used for differential expression analysis.
 
 ### References
 1. ftp://ftp.ensembl.org/pub/release-81/fasta/homo_sapiens/
