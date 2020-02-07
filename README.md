@@ -7,6 +7,11 @@
 3. Search peptide sequences in a six-frame genome translation database
 4. Perform tissue-specific analysis of found sequences using transcriptome databases
 
+### Methods and results
+1. Peptide sequences were aligned to six-frame genome translation database in two ways: using local alignment with heuristics and using HMM model. The transeq utility was used to translate the genome. The Exonerate tool was used for local alignment of peptide sequences. The HMMER tool was used to build HMM models (separatly by tissue types) and align them to transcriptome. 
+2. 100% matches were found for two sequences
+3. Tissue specificity not detected
+
 ### References
 1. ftp://ftp.ensembl.org/pub/release-81/fasta/homo_sapiens/
 2. exonerate: Slater GS and Birney E (2005) Automated generation of heuristics for biological sequence comparison. BMC Bioinformatics 6:31; doi: 10.1186/1471-2105-6-31
